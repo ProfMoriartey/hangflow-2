@@ -1,13 +1,15 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
 
 export default function ContactSection() {
+  const t = useTranslations("contactSection");
+
   return (
     <section className="text-text mx-auto w-full max-w-7xl px-6 py-24">
       <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
-        {/* Left Column: Email Focus */}
         <div className="flex flex-col gap-8">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -16,15 +18,14 @@ export default function ContactSection() {
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <h2 className="mb-6 text-4xl font-black tracking-tighter uppercase md:text-5xl">
-              Contact Us
+              {t("heading")}
             </h2>
             <p className="text-text/70 mb-8 max-w-md text-lg">
-              If you want to contact us, please reach out via email. This is the
-              most reliable way to get a response from our team.
+              {t("description")}
             </p>
 
             <motion.a
-              href="mailto:hello@hangflow.fi"
+              href={`mailto:${t("emailAddress")}`}
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
@@ -35,17 +36,16 @@ export default function ContactSection() {
               </div>
               <div>
                 <span className="text-text/40 mb-1 block text-xs font-bold tracking-widest uppercase">
-                  Send an email
+                  {t("emailLabel")}
                 </span>
                 <span className="text-text group-hover:text-primary text-xl font-black transition-colors md:text-2xl">
-                  hello@hangflow.fi
+                  {t("emailAddress")}
                 </span>
               </div>
             </motion.a>
           </motion.div>
         </div>
 
-        {/* Right Column: Google Map */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}

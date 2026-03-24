@@ -1,9 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
 import { Mail } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { Link } from "~/i18n/routing";
 
 export default function Footer() {
   const t = useTranslations("Footer");

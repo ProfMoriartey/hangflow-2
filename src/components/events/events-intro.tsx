@@ -2,9 +2,12 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import MagneticButton from "~/components/magnetic-button";
 
 export default function EventsIntro() {
+  const t = useTranslations("eventsIntro");
+
   return (
     <section className="text-text mx-auto flex w-full max-w-4xl flex-col items-center px-6 py-24 text-center md:py-32">
       <motion.h2
@@ -14,10 +17,11 @@ export default function EventsIntro() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="mb-12 text-4xl font-black tracking-tighter uppercase md:text-6xl"
       >
-        Space to Create and Connect
+        {t("heading")}
       </motion.h2>
 
       <div className="flex flex-col gap-8">
+        {/* Paragraph 1 */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -25,12 +29,10 @@ export default function EventsIntro() {
           transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
           className="text-text/80 text-xl leading-relaxed font-medium md:text-2xl"
         >
-          Our events are designed to be low-threshold spaces where you can show
-          up exactly as you are. Whether it is a professional-led workshop or a
-          casual evening hangout, the goal is always the same: providing a safe
-          environment to explore new skills and meet like-minded people.
+          {t("paragraphs.0")}
         </motion.p>
 
+        {/* Paragraph 2 */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -38,15 +40,10 @@ export default function EventsIntro() {
           transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
           className="text-text/80 text-xl leading-relaxed font-medium md:text-2xl"
         >
-          We prioritize the needs of our community by letting the youth drive
-          the schedule. From music production and digital art to simple coffee
-          chats, every session is a chance to co-create something meaningful.
-          Check the schedule below to find the next opportunity to join the
-          flow.
+          {t("paragraphs.1")}
         </motion.p>
       </div>
 
-      {/* New Magnetic Button for External Link */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -61,7 +58,7 @@ export default function EventsIntro() {
         >
           <MagneticButton>
             <div className="bg-primary text-background hover:bg-secondary rounded-full px-10 py-5 text-lg font-bold shadow-lg transition-colors">
-              Check our upcoming event
+              {t("button")}
             </div>
           </MagneticButton>
         </Link>

@@ -2,10 +2,11 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Link from "next/link";
+
 import Image from "next/image";
 import LanguageSwitcher from "./language-switcher";
 import { useTranslations } from "next-intl";
+import { Link } from "~/i18n/routing";
 
 const navLinks = [
   { key: "home", href: "/" },

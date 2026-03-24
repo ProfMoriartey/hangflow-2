@@ -1,73 +1,166 @@
 {
-"Hero": {
-"title": "Virrataan yhdessä",
-"events": "Tapahtumat",
-"mascotAlt": "Hangflow-maskotti",
-"socials": {
-"instagram": "IG",
-"twitter": "TW",
-"linkedin": "LI"
-}
-},
-"Introduction": {
-"title": "Mikä on Hangflow ry?",
-"flow": "Flow",
-"readMore": "Lue lisää",
-"paragraphs": {
-"first": "Hangflow on yhteisölähtöinen nuorisojärjestö, joka on omistautunut luomaan turvallisia, osallistavia ja luovia tiloja nuorille. Uskomme yhteyden ja itseilmaisun voimaan.",
-"second": "Toimintamme ulottuu paikallisten tapahtumien järjestämisestä alustojen tarjoamiseen nouseville kyvyille. Keskitymme rakentamaan tukevan verkoston, jossa jokainen voi löytää oman rytminsä ja virtansa.",
-"third": "Etsitpä sitten uusia taitoja, samanhenkisiä ystäviä tai haluat vain viettää aikaa tervetulleessa ympäristössä, Hangflow tarjoaa puitteet ja vapauden toteutukseen."
-}
-},
-"Events": {
-"title": "Tutustu tapahtumiimme",
-"description": "Järjestämme työpajoja, illanviettoja ja luovia istuntoja juuri sinulle. Liity yhteisöön verkostoitumaan, oppimaan uutta ja löytämään rytmisi tukevassa ilmapiirissä.",
-"viewEvents": "Katso tapahtumat",
-"image1Placeholder": "Kuva 1 paikkamerkki",
-"image2Placeholder": "Kuva 2 paikkamerkki",
-"image1Alt": "Tapahtuma 1",
-"image2Alt": "Tapahtuma 2"
-},
-"Board": {
-"title": "Hallituksen jäsenet 2026",
-"description": "Tapaa ydintiimi, joka vie Hangflow'ta eteenpäin.",
-"roles": {
-"president": "Puheenjohtaja",
-"vicePresident": "Varapuheenjohtaja",
-"treasurer": "Rahastonhoitaja",
-"secretary": "Sihteeri",
-"eventCoordinator": "Tapahtumakoordinaattori"
-}
-},
-"Footer": {
-"logoAlt": "Hangflow-logo",
-"exploreTitle": "Tutki",
-"links": {
-"home": "Koti",
-"aboutUs": "Meistä",
-"events": "Tapahtumat",
-"contact": "Ota yhteyttä"
-},
-"contactTitle": "Ota yhteyttä",
-"contactText": "Jos haluat ottaa meihin yhteyttä, tavoitat meidät sähköpostitse.",
-"locationTitle": "Sijainti",
-"privacyPolicy": "Tietosuojaseloste",
-"termsOfService": "Käyttöehdot",
-"copyright": "© {year} Hangflow ry. Kaikki oikeudet pidätetään."
-},
-"Navbar": {
-"logoAlt": "Hangflow-logo",
-"toggleMenu": "Avaa valikko",
-"links": {
-"home": "Koti",
-"aboutUs": "Meistä",
-"events": "Tapahtumat",
-"contact": "Yhteys"
-},
-"socials": {
-"instagram": "IG",
-"twitter": "TW",
-"linkedin": "LI"
-}
-}
+  "Hero": {
+    "title": "Virrataan yhdessä",
+    "events": "Tapahtumat",
+    "mascotAlt": "Hangflow-maskotti",
+    "socials": {
+      "instagram": "IG",
+      "twitter": "TW",
+      "linkedin": "LI"
+    }
+  },
+  "Introduction": {
+    "title": "Mikä on Hangflow ry?",
+    "flow": "Flow",
+    "readMore": "Lue lisää",
+    "paragraphs": {
+      "first": "Hangflow on yhteisölähtöinen nuorisojärjestö, joka on omistautunut luomaan turvallisia, osallistavia ja luovia tiloja nuorille. Uskomme yhteyden ja itseilmaisun voimaan.",
+      "second": "Toimintamme ulottuu paikallisten tapahtumien järjestämisestä alustojen tarjoamiseen nouseville kyvyille. Keskitymme rakentamaan tukevan verkoston, jossa jokainen voi löytää oman rytminsä ja virtansa.",
+      "third": "Etsitpä sitten uusia taitoja, samanhenkisiä ystäviä tai haluat vain viettää aikaa tervetulleessa ympäristössä, Hangflow tarjoaa puitteet ja vapauden toteutukseen."
+    }
+  },
+  "Events": {
+    "title": "Tutustu tapahtumiimme",
+    "description": "Järjestämme työpajoja, illanviettoja ja luovia istuntoja juuri sinulle. Liity yhteisöön verkostoitumaan, oppimaan uutta ja löytämään rytmisi tukevassa ilmapiirissä.",
+    "viewEvents": "Katso tapahtumat",
+    "image1Placeholder": "Kuva 1 paikkamerkki",
+    "image2Placeholder": "Kuva 2 paikkamerkki",
+    "image1Alt": "Tapahtuma 1",
+    "image2Alt": "Tapahtuma 2"
+  },
+  "Board": {
+    "title": "Hallituksen jäsenet 2026",
+    "description": "Tapaa ydintiimi, joka vie Hangflow'ta eteenpäin.",
+    "roles": {
+      "president": "Puheenjohtaja",
+      "vicePresident": "Varapuheenjohtaja",
+      "treasurer": "Rahastonhoitaja",
+      "secretary": "Sihteeri",
+      "eventCoordinator": "Tapahtumakoordinaattori"
+    }
+  },
+  "Footer": {
+    "logoAlt": "Hangflow-logo",
+    "exploreTitle": "Tutki",
+    "links": {
+      "home": "Koti",
+      "aboutUs": "Meistä",
+      "events": "Tapahtumat",
+      "contact": "Ota yhteyttä"
+    },
+    "contactTitle": "Ota yhteyttä",
+    "contactText": "Jos haluat ottaa meihin yhteyttä, tavoitat meidät sähköpostitse.",
+    "locationTitle": "Sijainti",
+    "privacyPolicy": "Tietosuojaseloste",
+    "termsOfService": "Käyttöehdot",
+    "copyright": "© {year} Hangflow ry. Kaikki oikeudet pidätetään."
+  },
+  "Navbar": {
+    "logoAlt": "Hangflow-logo",
+    "toggleMenu": "Avaa valikko",
+    "links": {
+      "home": "Koti",
+      "aboutUs": "Meistä",
+      "events": "Tapahtumat",
+      "contact": "Yhteys"
+    },
+    "socials": {
+      "instagram": "IG",
+      "twitter": "TW",
+      "linkedin": "LI"
+    }
+  },
+  "aboutBoard": {
+    "boardTitle": "Hallituksen jäsenet {year}",
+    "roles": {
+      "President": "Puheenjohtaja",
+      "VicePresident": "Varapuheenjohtaja",
+      "Treasurer": "Rahastonhoitaja",
+      "Secretary": "Sihteeri",
+      "EventCoordinator": "Tapahtumakoordinaattori"
+    }
+  },
+  "aboutHero": {
+    "heading": "Me olemme Hangflow",
+    "description": "Nuorten voimaannuttamista luovuuden, turvallisten tilojen ja aitojen kohtaamisten kautta.",
+    "buttons": {
+      "events": "Tapahtumat",
+      "social": {
+        "ig": "IG",
+        "tw": "TW",
+        "li": "LI"
+      }
+    }
+  },
+  "aboutSection": {
+    "heading": "Mikä on Hangflow?",
+    "paragraphs": {
+      "0": "Hangflow ry sai alkunsa ruohonjuuritason liikkeenä, jonka tarkoituksena oli antaa Suomen nuorille aito paikka, johon kuulua. Huomasimme yhteisössä aukon: monilla nuorilla ei ollut pääsyä maksuttomiin, matalan kynnyksen tiloihin, joissa he voisivat tutkia luovuuttaan ilman ulkoisia paineita tai odotuksia.",
+      "1": "Olemme olemassa rakentaaksemme näitä puuttuvia tiloja. Tehtävämme on järjestää työpajoja, avoimia hengailuiltoja ja kulttuuritapahtumia. Räätälöimme nämä toiminnot suoraan yhteisömme jäsenten kiinnostuksen kohteiden ja toiveiden mukaan.",
+      "2": "Uskomme yhdessä luomiseen. Nuoret päättävät, mitä Hangflow’ssa tapahtuu. He valitsevat musiikin, ehdottavat työpajojen aiheita ja auttavat tapahtumien suunnittelussa. Tämä jaettu omistajuus kasvattaa itseluottamusta ja vahvaa vastuuntuntoa.",
+      "3": "Inklusiivisuus on perustamme. Noudatamme tiukkoja turvallisemman tilan periaatteita kaikessa toiminnassamme. Syrjinnällä, kiusaamisella tai häirinnällä ei ole sijaa ekosysteemissämme. Suojelemme ympäristöämme, jotta jokainen voi ilmaista itseään vapaasti.",
+      "4": "Vuosien varrella olemme nähneet hiljaisten yksilöiden kasvavan itvarmoiksi johtajiksi. Olemme nähneet uusien taiteilijoiden löytävän äänensä ja todistaneet elinikäisten ystävyyssuhteiden alkua. Täällä syntyneet yhteydet ulottuvat kauas varsinaisten tapahtumiemme ulkopuolelle.",
+      "5": "Toimimme läpinäkyvästi ja avoimien ovien periaatteella. Et tarvitse aiempaa kokemusta tai erityistaitoja osallistuaksesi toimintaamme. Tuo mukanasi uteliaisuutesi ja halu kunnioittaa muita.",
+      "6": "Hangflow on enemmän kuin järjestö; se on jaettu rytmi. Kutsumme sinut liittymään yhteisöömme, jakamaan ideasi ja virtaamaan kanssamme."
+    }
+  },
+  "joinSection": {
+    "heading": "Kiinnostaako liittyminen?",
+    "button": "Liity yhteisöön"
+  },
+  "contactHero": {
+    "heading": "Ota yhteyttä",
+    "description": "Kysy lisää, ehdota yhteistyötä tai tule vain moikkaamaan. Me kuuntelemme aina.",
+    "buttons": {
+      "email": "Lähetä sähköpostia",
+      "social": {
+        "ig": "IG",
+        "tw": "TW",
+        "li": "LI"
+      }
+    }
+  },
+  "contactSection": {
+    "heading": "Yhteystiedot",
+    "description": "Jos haluat ottaa meihin yhteyttä, lähetäthän sähköpostia. Se on luotettavin tapa tavoittaa tiimimme.",
+    "emailLabel": "Lähetä sähköpostia",
+    "emailAddress": "hello@hangflow.fi"
+  },
+  "eventsHero": {
+    "heading": "Tulevat tapahtumat",
+    "description": "Löydä työpajat, luovat istunnot ja yhteisön tapaamiset, jotka auttavat sinua löytämään oman rytmisi.",
+    "buttons": {
+      "schedule": "Katso aikataulu",
+      "social": {
+        "ig": "IG",
+        "tw": "TW",
+        "li": "LI"
+      }
+    }
+  },
+  "eventsIntro": {
+    "heading": "Tilaa luoda ja kohdata",
+    "paragraphs": {
+      "0": "Tapahtumamme on suunniteltu matalan kynnyksen tiloiksi, joihin voit tulla juuri sellaisena kuin olet. Olipa kyseessä ammattilaisen ohjaama työpaja tai rento hengailuilta, tavoite on sama: tarjota turvallinen ympäristö uusien taitojen kokeiluun ja samanhenkisten ihmisten tapaamiseen.",
+      "1": "Asetamme yhteisömme tarpeet etusijalle antamalla nuorten vaikuttaa aikatauluun. Musiikkituotannosta ja digitaalisesta taiteesta rentoihin kahvihetkiin – jokainen kerta on mahdollisuus luoda jotain merkityksellistä yhdessä. Katso alla oleva aikataulu ja löydä seuraava tilaisuus liittyä mukaan."
+    },
+    "button": "Tarkista tuleva tapahtuma"
+  },
+  "projectsGrid": {
+    "heading": "Projektimme",
+    "projects": {
+      "0": "Summer Jam 2025",
+      "1": "Digitaalisen taiteen työpaja",
+      "2": "Biitinteon perusteet",
+      "3": "Urbaani valokuvakävely",
+      "4": "Nuorten gaalailta",
+      "5": "Graffitisessio",
+      "6": "Skeittimiitti",
+      "7": "Podcast-labra",
+      "8": "Open Mic -ilta",
+      "9": "Tanssibattle",
+      "10": "Koodausta lapsille",
+      "11": "Winter Chill Lounge"
+    }
+  }
 }

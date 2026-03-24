@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Link from "next/link";
+
 import Image from "next/image";
+import { Link } from "~/i18n/routing";
 
 const navLinks = [
   { title: "Home", href: "/" },

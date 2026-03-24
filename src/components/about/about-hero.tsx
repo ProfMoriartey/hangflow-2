@@ -1,17 +1,19 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import MagneticButton from "~/components/magnetic-button";
 
 export default function AboutHero() {
+  const t = useTranslations("aboutHero");
+
   return (
     <section className="text-text relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 pt-24">
-      {/* Background Image */}
       <div className="pointer-events-none absolute inset-0 z-0 opacity-30">
         <Image
           src="https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcBXIaVJNpKLdVeTZqUznCfyl1DtbPSWsRu6iF"
-          alt="Hangflow About Background"
+          alt={t("heading")}
           fill
           className="object-cover"
           priority
@@ -24,7 +26,7 @@ export default function AboutHero() {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="z-10 text-center text-6xl font-black tracking-tighter uppercase md:text-9xl"
       >
-        We Are Hangflow
+        {t("heading")}
       </motion.h1>
 
       <motion.p
@@ -33,8 +35,7 @@ export default function AboutHero() {
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         className="text-text/70 z-10 mt-6 mb-12 max-w-2xl text-center text-lg md:text-2xl"
       >
-        Empowering youth through creativity, safe spaces, and genuine
-        connection.
+        {t("description")}
       </motion.p>
 
       <motion.div
@@ -45,24 +46,24 @@ export default function AboutHero() {
       >
         <MagneticButton>
           <div className="bg-primary text-background hover:bg-secondary cursor-pointer rounded-full px-10 py-4 font-bold transition-colors">
-            Events
+            {t("buttons.events")}
           </div>
         </MagneticButton>
 
         <div className="flex gap-3">
           <MagneticButton>
             <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
-              IG
+              {t("buttons.social.ig")}
             </div>
           </MagneticButton>
           <MagneticButton>
             <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
-              TW
+              {t("buttons.social.tw")}
             </div>
           </MagneticButton>
           <MagneticButton>
             <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
-              LI
+              {t("buttons.social.li")}
             </div>
           </MagneticButton>
         </div>

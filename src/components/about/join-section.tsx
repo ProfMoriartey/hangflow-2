@@ -1,14 +1,16 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import MagneticButton from "~/components/magnetic-button";
 
 export default function JoinSection() {
+  const t = useTranslations("joinSection");
+
   return (
     <section className="relative mx-auto flex w-full max-w-4xl flex-col items-center justify-center overflow-hidden px-6 py-24 text-center md:py-32">
-      {/* Floating Mascot */}
       <motion.div
         animate={{
           y: [0, -15, 0],
@@ -29,7 +31,6 @@ export default function JoinSection() {
         />
       </motion.div>
 
-      {/* Main Call to Action Text */}
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -37,10 +38,9 @@ export default function JoinSection() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="text-text mb-10 text-4xl font-black tracking-tighter uppercase md:text-5xl"
       >
-        Are you interested in joining?
+        {t("heading")}
       </motion.h2>
 
-      {/* External Form Link */}
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -54,7 +54,7 @@ export default function JoinSection() {
         >
           <MagneticButton>
             <div className="bg-accent text-background rounded-full px-10 py-5 text-lg font-bold shadow-xl transition-transform hover:scale-105">
-              Join the Community
+              {t("button")}
             </div>
           </MagneticButton>
         </Link>
