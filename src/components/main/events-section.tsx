@@ -4,8 +4,11 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import MagneticButton from "~/components/magnetic-button";
+import { useTranslations } from "next-intl";
 
 export default function EventsSection() {
+  const t = useTranslations("Events");
+
   return (
     <section className="text-text mx-auto flex min-h-[70vh] w-full max-w-6xl flex-col items-center justify-center gap-16 overflow-hidden px-6 py-24 lg:flex-row">
       {/* Text Content */}
@@ -17,17 +20,15 @@ export default function EventsSection() {
         className="z-10 flex w-full flex-col items-start gap-6 lg:w-1/2"
       >
         <h2 className="text-3xl font-black tracking-tighter md:text-5xl">
-          Check our events
+          {t("title")}
         </h2>
         <p className="text-text/80 max-w-md text-lg leading-relaxed">
-          We organize workshops, hangouts, and creative sessions tailored for
-          you. Join the community to connect, learn new skills, and find your
-          rhythm in a supportive space.
+          {t("description")}
         </p>
         <Link href="/events" className="mt-4">
           <MagneticButton>
             <div className="bg-primary text-background hover:bg-secondary rounded-full px-8 py-4 font-bold transition-colors">
-              View Events
+              {t("viewEvents")}
             </div>
           </MagneticButton>
         </Link>
@@ -48,12 +49,11 @@ export default function EventsSection() {
           className="border-background bg-secondary/20 absolute top-0 right-4 z-10 flex h-56 w-3/3 items-center justify-center overflow-hidden rounded-2xl border-2 shadow-2xl md:right-12 md:h-72"
         >
           <span className="text-text/50 text-sm font-bold">
-            Image 1 Placeholder
+            {t("image1Placeholder")}
           </span>
-          {/* Add your actual image here later: */}
           <Image
             src="https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcAtf7M1UjR2IHVG4dfjMo3klgPY0LEFDsa9zW"
-            alt="Event 1"
+            alt={t("image1Alt")}
             fill
             className="object-cover"
           />
@@ -66,12 +66,11 @@ export default function EventsSection() {
           className="border-background bg-primary/20 absolute bottom-0 left-4 z-20 flex h-56 w-3/3 items-center justify-center overflow-hidden rounded-2xl border-2 shadow-2xl md:left-8 md:h-72"
         >
           <span className="text-text/50 text-sm font-bold">
-            Image 2 Placeholder
+            {t("image2Placeholder")}
           </span>
-          {/* Add your actual image here later: */}
           <Image
             src="https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcLYLBASMQHi7hMSqkoP6FOTnRVZWeUdurLjEz"
-            alt="Event 2"
+            alt={t("image2Alt")}
             fill
             className="object-cover"
           />

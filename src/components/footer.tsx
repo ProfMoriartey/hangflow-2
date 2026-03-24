@@ -3,8 +3,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Mail } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations("Footer");
   const currentYear = new Date().getFullYear();
 
   return (
@@ -14,7 +16,7 @@ export default function Footer() {
         <div className="flex flex-col items-start">
           <Image
             src="https://y644vemv1r.ufs.sh/f/xNlIiPpI32zc8crhK61yi4q3Ya7lATvfkQKgFBWjemutVwZr"
-            alt="Hangflow Logo"
+            alt={t("logoAlt")}
             width={160}
             height={40}
             className="h-32 w-auto object-contain"
@@ -24,29 +26,29 @@ export default function Footer() {
         {/* Column 2: Links */}
         <div className="flex flex-col gap-6">
           <h4 className="text-lg font-black tracking-tighter uppercase">
-            Explore
+            {t("exploreTitle")}
           </h4>
           <nav className="text-text/70 flex flex-col gap-3 text-sm font-medium">
             <Link href="/" className="hover:text-primary transition-colors">
-              Home
+              {t("links.home")}
             </Link>
             <Link
               href="/about"
               className="hover:text-primary transition-colors"
             >
-              About Us
+              {t("links.aboutUs")}
             </Link>
             <Link
               href="/events"
               className="hover:text-primary transition-colors"
             >
-              Events
+              {t("links.events")}
             </Link>
             <Link
               href="/contact"
               className="hover:text-primary transition-colors"
             >
-              Contact
+              {t("links.contact")}
             </Link>
           </nav>
         </div>
@@ -54,10 +56,10 @@ export default function Footer() {
         {/* Column 3: Email and Contact Text */}
         <div className="flex flex-col gap-6">
           <h4 className="text-lg font-black tracking-tighter uppercase">
-            Contact Us
+            {t("contactTitle")}
           </h4>
           <p className="text-text/60 max-w-60 text-sm leading-relaxed">
-            If you want to contact us please reach us through the email.
+            {t("contactText")}
           </p>
           <div className="text-primary flex items-center gap-3 text-sm font-bold">
             <Mail className="h-5 w-5" />
@@ -70,7 +72,7 @@ export default function Footer() {
         {/* Column 4: Small Map */}
         <div className="flex flex-col gap-4">
           <h4 className="text-lg font-black tracking-tighter uppercase">
-            Location
+            {t("locationTitle")}
           </h4>
           <div className="border-text/10 h-32 w-full overflow-hidden rounded-xl border contrast-125 grayscale">
             <iframe
@@ -87,13 +89,13 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="border-text/10 text-text/40 mx-auto mt-20 flex max-w-7xl flex-col items-center justify-between gap-4 border-t pt-8 text-[10px] font-bold tracking-[0.2em] uppercase md:flex-row">
-        <p>© {currentYear} Hangflow ry. All rights reserved.</p>
+        <p>{t("copyright", { year: currentYear })}</p>
         <div className="flex gap-8">
           <Link href="/privacy" className="hover:text-text transition-colors">
-            Privacy Policy
+            {t("privacyPolicy")}
           </Link>
           <Link href="/terms" className="hover:text-text transition-colors">
-            Terms of Service
+            {t("termsOfService")}
           </Link>
         </div>
       </div>

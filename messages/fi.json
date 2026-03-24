@@ -1,0 +1,73 @@
+{
+"Hero": {
+"title": "Virrataan yhdessä",
+"events": "Tapahtumat",
+"mascotAlt": "Hangflow-maskotti",
+"socials": {
+"instagram": "IG",
+"twitter": "TW",
+"linkedin": "LI"
+}
+},
+"Introduction": {
+"title": "Mikä on Hangflow ry?",
+"flow": "Flow",
+"readMore": "Lue lisää",
+"paragraphs": {
+"first": "Hangflow on yhteisölähtöinen nuorisojärjestö, joka on omistautunut luomaan turvallisia, osallistavia ja luovia tiloja nuorille. Uskomme yhteyden ja itseilmaisun voimaan.",
+"second": "Toimintamme ulottuu paikallisten tapahtumien järjestämisestä alustojen tarjoamiseen nouseville kyvyille. Keskitymme rakentamaan tukevan verkoston, jossa jokainen voi löytää oman rytminsä ja virtansa.",
+"third": "Etsitpä sitten uusia taitoja, samanhenkisiä ystäviä tai haluat vain viettää aikaa tervetulleessa ympäristössä, Hangflow tarjoaa puitteet ja vapauden toteutukseen."
+}
+},
+"Events": {
+"title": "Tutustu tapahtumiimme",
+"description": "Järjestämme työpajoja, illanviettoja ja luovia istuntoja juuri sinulle. Liity yhteisöön verkostoitumaan, oppimaan uutta ja löytämään rytmisi tukevassa ilmapiirissä.",
+"viewEvents": "Katso tapahtumat",
+"image1Placeholder": "Kuva 1 paikkamerkki",
+"image2Placeholder": "Kuva 2 paikkamerkki",
+"image1Alt": "Tapahtuma 1",
+"image2Alt": "Tapahtuma 2"
+},
+"Board": {
+"title": "Hallituksen jäsenet 2026",
+"description": "Tapaa ydintiimi, joka vie Hangflow'ta eteenpäin.",
+"roles": {
+"president": "Puheenjohtaja",
+"vicePresident": "Varapuheenjohtaja",
+"treasurer": "Rahastonhoitaja",
+"secretary": "Sihteeri",
+"eventCoordinator": "Tapahtumakoordinaattori"
+}
+},
+"Footer": {
+"logoAlt": "Hangflow-logo",
+"exploreTitle": "Tutki",
+"links": {
+"home": "Koti",
+"aboutUs": "Meistä",
+"events": "Tapahtumat",
+"contact": "Ota yhteyttä"
+},
+"contactTitle": "Ota yhteyttä",
+"contactText": "Jos haluat ottaa meihin yhteyttä, tavoitat meidät sähköpostitse.",
+"locationTitle": "Sijainti",
+"privacyPolicy": "Tietosuojaseloste",
+"termsOfService": "Käyttöehdot",
+"copyright": "© {year} Hangflow ry. Kaikki oikeudet pidätetään."
+},
+"Navbar": {
+"logoAlt": "Hangflow-logo",
+"toggleMenu": "Avaa valikko",
+"links": {
+"home": "Koti",
+"aboutUs": "Meistä",
+"events": "Tapahtumat",
+"contact": "Yhteys"
+},
+"socials": {
+"instagram": "IG",
+"twitter": "TW",
+"linkedin": "LI"
+}
+}
+}

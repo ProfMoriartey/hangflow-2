@@ -1,0 +1,75 @@
+{
+  "Hero": {
+    "title": "Let's flow together",
+    "events": "Events",
+    "mascotAlt": "Hangflow Mascot",
+    "socials": {
+      "instagram": "IG",
+      "twitter": "TW",
+      "linkedin": "LI"
+    }
+  },
+   "Introduction": {
+    "title": "What is Hangflow ry?",
+    "flow": "Flow",
+    "readMore": "Read more",
+    "paragraphs": {
+      "first": "Hangflow is a community-driven youth organization dedicated to creating safe, engaging, and creative spaces for young people. We believe in the power of connection and self-expression.",
+      "second": "Our activities range from organizing local events to providing platforms for emerging talents. We focus on building a supportive network where everyone can find their rhythm and flow.",
+      "third": "Whether you are looking to learn new skills, meet like-minded peers, or simply hang out in a welcoming environment, Hangflow provides the structure and freedom to make it happen."
+    }
+  },
+  "Events": {
+    "title": "Check our events",
+    "description": "We organize workshops, hangouts, and creative sessions tailored for you. Join the community to connect, learn new skills, and find your rhythm in a supportive space.",
+    "viewEvents": "View Events",
+    "image1Placeholder": "Image 1 Placeholder",
+    "image2Placeholder": "Image 2 Placeholder",
+    "image1Alt": "Event 1",
+    "image2Alt": "Event 2"
+  },
+  
+  "Board": {
+    "title": "2026 Board Members",
+    "description": "Meet the core team driving Hangflow forward.",
+    "roles": {
+      "president": "President",
+      "vicePresident": "Vice President",
+      "treasurer": "Treasurer",
+      "secretary": "Secretary",
+      "eventCoordinator": "Event Coordinator"
+    }
+  },
+  "Footer": {
+    "logoAlt": "Hangflow Logo",
+    "exploreTitle": "Explore",
+    "links": {
+      "home": "Home",
+      "aboutUs": "About Us",
+      "events": "Events",
+      "contact": "Contact"
+    },
+    "contactTitle": "Contact Us",
+    "contactText": "If you want to contact us please reach us through the email.",
+    "locationTitle": "Location",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© {year} Hangflow ry. All rights reserved."
+  },
+  "Navbar": {
+    "logoAlt": "Hangflow Logo",
+    "toggleMenu": "Toggle menu",
+    "links": {
+      "home": "Home",
+      "aboutUs": "About",
+      "events": "Events",
+      "contact": "Contact"
+    },
+    "socials": {
+      "instagram": "IG",
+      "twitter": "TW",
+      "linkedin": "LI"
+    }
+  }
+
+}

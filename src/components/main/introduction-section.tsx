@@ -3,8 +3,11 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import MagneticButton from "~/components/magnetic-button";
+import { useTranslations } from "next-intl";
 
 export default function IntroductionSection() {
+  const t = useTranslations("Introduction");
+
   return (
     <section className="text-text mx-auto flex min-h-[60vh] w-full max-w-4xl flex-col items-center justify-center gap-8 px-6 py-20 text-center">
       <motion.div
@@ -15,34 +18,20 @@ export default function IntroductionSection() {
         className="flex flex-col items-center gap-6"
       >
         <h2 className="text-3xl leading-tight font-black tracking-tighter md:text-5xl">
-          What is Hangflow ry?
+          {t("title")}
         </h2>
 
         <div className="text-text/80 flex max-w-2xl flex-col gap-4 text-base leading-relaxed md:text-lg">
-          <p>
-            Hangflow is a community-driven youth organization dedicated to
-            creating safe, engaging, and creative spaces for young people. We
-            believe in the power of connection and self-expression.
-          </p>
-          <p>
-            Our activities range from organizing local events to providing
-            platforms for emerging talents. We focus on building a supportive
-            network where everyone can find their rhythm and flow.
-          </p>
-          <p>
-            Whether you are looking to learn new skills, meet like-minded peers,
-            or simply hang out in a welcoming environment, Hangflow provides the
-            structure and freedom to make it happen.
-          </p>
+          <p>{t("paragraphs.first")}</p>
+          <p>{t("paragraphs.second")}</p>
+          <p>{t("paragraphs.third")}</p>
         </div>
 
-        {/* Interactive Clue & Hidden Button */}
         <motion.div
           initial="idle"
           whileHover="revealed"
           className="relative mt-6 flex h-16 w-48 cursor-crosshair items-center justify-center"
         >
-          {/* Subtle Visual Cue */}
           <motion.div
             variants={{
               idle: { opacity: 0.6, scale: 1 },
@@ -53,11 +42,10 @@ export default function IntroductionSection() {
           >
             <div className="bg-primary h-2 w-2 animate-pulse rounded-full" />
             <span className="text-primary text-xs font-bold tracking-widest uppercase opacity-70">
-              Flow
+              {t("flow")}
             </span>
           </motion.div>
 
-          {/* Hidden "Read more" Button */}
           <motion.div
             variants={{
               idle: {
@@ -79,7 +67,7 @@ export default function IntroductionSection() {
             <Link href="/about">
               <MagneticButton>
                 <div className="bg-text text-background hover:bg-accent rounded-full px-8 py-3 text-sm font-bold transition-colors hover:text-white">
-                  Read more
+                  {t("readMore")}
                 </div>
               </MagneticButton>
             </Link>
