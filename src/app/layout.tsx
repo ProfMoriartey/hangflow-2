@@ -5,6 +5,7 @@ import { Geist, Inter } from "next/font/google";
 import { ThemeProvider } from "~/components/theme-provider";
 import { cn } from "~/lib/utils";
 import Navigation from "~/components/navigation";
+import ThemeToggle from "~/components/theme-toggle";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -33,6 +34,7 @@ export default function RootLayout({
         >
           <Navigation />
           {children}
+          <ThemeToggle />
         </ThemeProvider>
       </body>
     </html>

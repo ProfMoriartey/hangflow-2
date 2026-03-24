@@ -26,21 +26,6 @@ export default function HeroSection() {
         </span>
       </div>
 
-      <div className="absolute top-8 right-8 z-10 flex gap-2">
-        <button
-          onClick={() => setTheme("light")}
-          className="border-text/20 rounded border p-2 text-sm"
-        >
-          Light
-        </button>
-        <button
-          onClick={() => setTheme("dark")}
-          className="border-text/20 rounded border p-2 text-sm"
-        >
-          Dark
-        </button>
-      </div>
-
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
