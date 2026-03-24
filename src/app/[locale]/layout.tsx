@@ -9,7 +9,7 @@ import Navbar from "~/components/navbar";
 import Footer from "~/components/footer";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
-import { routing } from "~/i18n/routing";
+import { routing, type Locale } from "~/i18n/routing";
 import { notFound } from "next/navigation";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
@@ -68,16 +68,17 @@ const geist = Geist({
   variable: "--font-geist-sans",
 });
 
-export default async function RootLayout({
+export default async function LocaleLayout({
   children,
   params,
-}: Readonly<{
+}: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
-}>) {
+}) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as any)) {
+  // Validate that the incoming `locale` parameter is valid
+  if (!routing.locales.includes(locale as Locale)) {
     notFound();
   }
 
