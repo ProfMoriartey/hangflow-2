@@ -42,11 +42,41 @@ export default function Navbar() {
         </Link>
 
         {/* Top Right: Menu Button */}
+        {/* Top Right: Animated 3-Line Burger Button */}
         <button
           onClick={toggleMenu}
-          className="bg-text text-background pointer-events-auto z-50 rounded-full px-6 py-2 font-bold tracking-widest uppercase transition-transform hover:scale-105 md:px-8 md:py-3"
+          aria-label="Toggle menu"
+          className="bg-text pointer-events-auto relative flex h-12 w-12 items-center justify-center rounded-full transition-transform hover:scale-105 md:h-14 md:w-14"
         >
-          {isOpen ? "Close" : "Menu"}
+          {/* Top Line */}
+          <motion.span
+            animate={{
+              y: isOpen ? 0 : -6,
+              rotate: isOpen ? 45 : 0,
+            }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="bg-accent absolute block h-1 w-5 rounded-full md:w-7"
+          />
+
+          {/* Middle Line */}
+          <motion.span
+            animate={{
+              opacity: isOpen ? 0 : 1,
+              scale: isOpen ? 0 : 1,
+            }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="bg-accent absolute block h-1 w-5 rounded-full md:w-7"
+          />
+
+          {/* Bottom Line */}
+          <motion.span
+            animate={{
+              y: isOpen ? 0 : 6,
+              rotate: isOpen ? -45 : 0,
+            }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="bg-accent absolute block h-1 w-5 rounded-full md:w-7"
+          />
         </button>
       </motion.header>
 
