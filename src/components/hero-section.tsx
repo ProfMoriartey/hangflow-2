@@ -47,7 +47,7 @@ export default function HeroSection() {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="z-10 mb-12 text-center text-6xl font-black tracking-tighter uppercase md:text-9xl"
       >
-        Let's flow together
+        Let&apos;s flow together
       </motion.h1>
 
       <motion.div
