@@ -12,6 +12,7 @@ import { getMessages } from "next-intl/server";
 import { routing, type Locale } from "~/i18n/routing";
 import { notFound } from "next/navigation";
 import BackgroundEffect from "~/components/background-effect";
+import MouseGlow from "~/components/mouse-glow";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -96,10 +97,11 @@ export default async function LocaleLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <BackgroundEffect />
+            <MouseGlow />
             <Navbar />
-            <main className="relative z-10">{children}</main>
+            <main className="relative z-10 min-h-screen">{children}</main>
             <Footer />
+
             <ThemeToggle />
           </ThemeProvider>
         </NextIntlClientProvider>
