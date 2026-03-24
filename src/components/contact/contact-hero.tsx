@@ -56,7 +56,7 @@ export default function ContactHero() {
         <div className="flex gap-3">
           <MagneticButton>
             <a
-              href="#"
+              href="https://www.instagram.com/hangfloww#"
               className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white"
             >
               {t("buttons.social.ig")}
@@ -64,7 +64,7 @@ export default function ContactHero() {
           </MagneticButton>
           <MagneticButton>
             <a
-              href="#"
+              href="https://www.instagram.com/hangfloww"
               className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white"
             >
               {t("buttons.social.tw")}
@@ -72,7 +72,7 @@ export default function ContactHero() {
           </MagneticButton>
           <MagneticButton>
             <a
-              href="#"
+              href="https://www.instagram.com/hangfloww"
               className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white"
             >
               {t("buttons.social.li")}

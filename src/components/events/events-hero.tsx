@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import MagneticButton from "~/components/magnetic-button";
+import { Link } from "~/i18n/routing";
 
 export default function EventsHero() {
   const t = useTranslations("eventsHero");
@@ -44,28 +45,48 @@ export default function EventsHero() {
         transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
         className="z-10 flex flex-col items-center gap-4 sm:flex-row"
       >
-        <MagneticButton>
-          <div className="bg-primary text-background hover:bg-secondary block cursor-pointer rounded-full px-10 py-4 font-bold transition-colors">
-            {t("buttons.schedule")}
-          </div>
-        </MagneticButton>
+        <Link href="/about">
+          <MagneticButton>
+            <div className="bg-primary text-background hover:bg-secondary block cursor-pointer rounded-full px-10 py-4 font-bold transition-colors">
+              {t("buttons.schedule")}
+            </div>
+          </MagneticButton>
+        </Link>
 
         <div className="flex gap-3">
-          <MagneticButton>
-            <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white">
-              {t("buttons.social.ig")}
-            </div>
-          </MagneticButton>
-          <MagneticButton>
-            <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white">
-              {t("buttons.social.tw")}
-            </div>
-          </MagneticButton>
-          <MagneticButton>
-            <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white">
-              {t("buttons.social.li")}
-            </div>
-          </MagneticButton>
+          <a
+            href="https://www.instagram.com/hangfloww"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MagneticButton>
+              <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white">
+                {t("buttons.social.ig")}
+              </div>
+            </MagneticButton>
+          </a>
+          <a
+            href="https://linkedin.com/company/yourhandle"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MagneticButton>
+              <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white">
+                {t("buttons.social.tw")}
+              </div>
+            </MagneticButton>
+          </a>
+          <a
+            href="https://linkedin.com/company/yourhandle"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MagneticButton>
+              <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white">
+                {t("buttons.social.li")}
+              </div>
+            </MagneticButton>
+          </a>
         </div>
       </motion.div>
     </section>
