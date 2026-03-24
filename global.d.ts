@@ -1,8 +1,8 @@
-import en from './messages/en.json';
- 
+import type en from "../messages/en.json";
+
 type Messages = typeof en;
- 
+
 declare global {
-  // Use implementation of en.json as the type for all messages
+  // Use the structure of en.json as the master type for all languages
   interface IntlMessages extends Messages {}
 }
