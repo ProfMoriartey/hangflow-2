@@ -7,17 +7,21 @@ import Image from "next/image";
 const boardMembers = [
   {
     id: 1,
-    name: "Matti Virtanen",
-    role: "Chairperson",
-    image: "/board/matti.jpg",
-    hoverImage: "/board/matti-fun.jpg",
+    name: "Shahin",
+    role: "President",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcDD7qXlkGNij6Hs0x9lq1CL7uWE4aI3Qty2Pr",
+    hoverImage:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcdw01MOVfj5OPw8Nl9abKpQoAD6EzxgSVY13s",
   },
   {
     id: 2,
-    name: "Anna Korhonen",
-    role: "Vice Chair",
-    image: "/board/anna.jpg",
-    hoverImage: "/board/anna-fun.jpg",
+    name: "Hannaneh",
+    role: "Vice President",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcX4n04lRxDvqWu6A2B4LeUoQRydMpJgskHlfn",
+    hoverImage:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcXdrEyCmRxDvqWu6A2B4LeUoQRydMpJgskHlf",
   },
   {
     id: 3,

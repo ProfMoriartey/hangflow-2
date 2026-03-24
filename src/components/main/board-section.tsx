@@ -13,15 +13,17 @@ import {
 const boardMembers = [
   {
     id: 1,
-    name: "Matti Virtanen",
-    role: "Chairperson",
-    image: "/board/matti.jpg",
+    name: "Shahin",
+    role: "President",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcDD7qXlkGNij6Hs0x9lq1CL7uWE4aI3Qty2Pr",
   },
   {
     id: 2,
-    name: "Anna Korhonen",
-    role: "Vice Chair",
-    image: "/board/anna.jpg",
+    name: "Hannaneh",
+    role: "Vice President",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcX4n04lRxDvqWu6A2B4LeUoQRydMpJgskHlfn",
   },
   { id: 3, name: "Eero Nieminen", role: "Treasurer", image: "/board/eero.jpg" },
   { id: 4, name: "Sofia Mäkinen", role: "Events", image: "/board/sofia.jpg" },
@@ -110,7 +112,7 @@ export default function BoardSection() {
                       alt={member.name}
                       fill
                       className="object-cover"
-                      sizes="(max-width: 768px) 160px, 192px"
+                      sizes="(max-width: 1000px) 1000px, 1000px"
                     />
                   </div>
 

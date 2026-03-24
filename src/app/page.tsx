@@ -1,7 +1,7 @@
-import BoardSection from "~/components/board-section";
-import EventsSection from "~/components/events-section";
-import HeroSection from "~/components/hero-section";
-import IntroductionSection from "~/components/introduction-section";
+import BoardSection from "~/components/main/board-section";
+import EventsSection from "~/components/main/events-section";
+import HeroSection from "~/components/main/hero-section";
+import IntroductionSection from "~/components/main/introduction-section";
 
 export default function Home() {
   return (
