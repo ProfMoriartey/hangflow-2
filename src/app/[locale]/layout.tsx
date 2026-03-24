@@ -11,6 +11,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { routing, type Locale } from "~/i18n/routing";
 import { notFound } from "next/navigation";
+import BackgroundEffect from "~/components/background-effect";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -58,8 +59,8 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 
@@ -95,8 +96,9 @@ export default async function LocaleLayout({
             enableSystem
             disableTransitionOnChange
           >
+            <BackgroundEffect />
             <Navbar />
-            {children}
+            <main className="relative z-10">{children}</main>
             <Footer />
             <ThemeToggle />
           </ThemeProvider>
