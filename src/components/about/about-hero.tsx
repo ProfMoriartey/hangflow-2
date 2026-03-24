@@ -1,20 +1,28 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
+import MagneticButton from "~/components/magnetic-button";
 
 export default function AboutHero() {
   return (
-    <section className="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden px-6 pt-32">
-      {/* Subtle Background Glow */}
-      <div className="pointer-events-none absolute inset-0 z-0 flex items-center justify-center opacity-20">
-        <div className="bg-primary h-[80vw] w-[80vw] rounded-full blur-[100px] md:h-[40vw] md:w-[40vw]" />
+    <section className="text-text relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 pt-24">
+      {/* Background Image */}
+      <div className="pointer-events-none absolute inset-0 z-0 opacity-30">
+        <Image
+          src="https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcBXIaVJNpKLdVeTZqUznCfyl1DtbPSWsRu6iF"
+          alt="Hangflow About Background"
+          fill
+          className="object-cover"
+          priority
+        />
       </div>
 
       <motion.h1
-        initial={{ opacity: 0, scale: 0.95, filter: "blur(10px)" }}
-        animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="text-text z-10 text-center text-6xl font-black tracking-tighter uppercase md:text-9xl"
+        className="z-10 text-center text-6xl font-black tracking-tighter uppercase md:text-9xl"
       >
         We Are Hangflow
       </motion.h1>
@@ -23,11 +31,42 @@ export default function AboutHero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-        className="text-text/70 z-10 mt-8 max-w-2xl text-center text-lg md:text-2xl"
+        className="text-text/70 z-10 mt-6 mb-12 max-w-2xl text-center text-lg md:text-2xl"
       >
         Empowering youth through creativity, safe spaces, and genuine
         connection.
       </motion.p>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+        className="z-10 flex items-center gap-4"
+      >
+        <MagneticButton>
+          <div className="bg-primary text-background hover:bg-secondary cursor-pointer rounded-full px-10 py-4 font-bold transition-colors">
+            Events
+          </div>
+        </MagneticButton>
+
+        <div className="flex gap-3">
+          <MagneticButton>
+            <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
+              IG
+            </div>
+          </MagneticButton>
+          <MagneticButton>
+            <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
+              TW
+            </div>
+          </MagneticButton>
+          <MagneticButton>
+            <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
+              LI
+            </div>
+          </MagneticButton>
+        </div>
+      </motion.div>
     </section>
   );
 }
