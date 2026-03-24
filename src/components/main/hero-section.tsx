@@ -11,7 +11,7 @@ export default function HeroSection() {
   const t = useTranslations("Hero");
 
   return (
-    <section className="bg-background text-text relative flex min-h-screen flex-col items-center justify-center overflow-hidden">
+    <section className="text-text relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-transparent">
       <div className="pointer-events-none absolute inset-0 z-0 opacity-50">
         <Image
           src="https://y644vemv1r.ufs.sh/f/xNlIiPpI32zc4jslxI0tGQkHWUzc08Cj7D2x6uPNni9bYwlM"

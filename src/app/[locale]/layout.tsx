@@ -13,6 +13,7 @@ import { routing, type Locale } from "~/i18n/routing";
 import { notFound } from "next/navigation";
 import BackgroundEffect from "~/components/background-effect";
 import MouseGlow from "~/components/mouse-glow";
+import BackgroundGlows from "~/components/background-glows";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -88,7 +89,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang="en" className={cn(geist.variable, "font-sans", inter.variable)}>
-      <body>
+      <body className="bg-background relative min-h-screen overflow-x-hidden">
         <NextIntlClientProvider messages={messages}>
           {" "}
           <ThemeProvider
@@ -97,9 +98,10 @@ export default async function LocaleLayout({
             enableSystem
             disableTransitionOnChange
           >
+            <BackgroundGlows />
             <MouseGlow />
             <Navbar />
-            <main className="relative z-10 min-h-screen">{children}</main>
+            <main className="relative z-10">{children}</main>
             <Footer />
 
             <ThemeToggle />

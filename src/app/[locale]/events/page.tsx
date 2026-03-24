@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function EventsPage() {
   return (
-    <main className="bg-background flex min-h-screen flex-col">
+    <main className="flex min-h-screen flex-col bg-transparent">
       <EventsHero />
       <EventsIntro />
       <ProjectsGrid />

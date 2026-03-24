@@ -5,7 +5,7 @@ import IntroductionSection from "~/components/main/introduction-section";
 
 export default function Home() {
   return (
-    <main className="bg-background flex min-h-screen flex-col">
+    <main className="flex min-h-screen flex-col bg-transparent">
       <HeroSection />
       <IntroductionSection />
       <EventsSection />

@@ -97,7 +97,7 @@ export default function BoardSection() {
   );
 
   return (
-    <section className="text-text bg-background flex min-h-[60vh] w-full flex-col justify-center overflow-hidden py-24">
+    <section className="text-text flex min-h-[60vh] w-full flex-col justify-center overflow-hidden bg-transparent py-24">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
