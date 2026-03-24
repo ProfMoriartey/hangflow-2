@@ -25,45 +25,75 @@ const boardMembers = [
   },
   {
     id: 3,
-    name: "Eero Nieminen",
+    name: "Morad",
     role: "Treasurer",
-    image: "/board/eero.jpg",
-    hoverImage: "/board/eero-fun.jpg",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcLDrnNcMQHi7hMSqkoP6FOTnRVZWeUdurLjEz",
+    hoverImage:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcNcMHlLm1xiKS3bZhFW9Jr4dTk7XR0D8ayzws",
   },
   {
     id: 4,
-    name: "Sofia Mäkinen",
-    role: "Events",
-    image: "/board/sofia.jpg",
-    hoverImage: "/board/sofia-fun.jpg",
+    name: "Nora",
+    role: "Secretary",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zc03A0yDry8kuzKnVTFYpeUWcRBMbPjgIHs62f",
+    hoverImage:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcAh2MDEjR2IHVG4dfjMo3klgPY0LEFDsa9zW7",
   },
   {
     id: 5,
-    name: "Lauri Laine",
-    role: "Media",
-    image: "/board/lauri.jpg",
-    hoverImage: "/board/lauri-fun.jpg",
+    name: "Victoria",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zc8jj9A4e61yi4q3Ya7lATvfkQKgFBWjemutVw",
+    hoverImage:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcVgZAQMJzoRPMCD6fd0tXE2H9mKg1IqV85Qhe",
   },
   {
     id: 6,
-    name: "Kari Salo",
-    role: "Logistics",
-    image: "/board/kari.jpg",
-    hoverImage: "/board/kari-fun.jpg",
+    name: "Dandy",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zck1kxetq0Fd4Izwe7tLmD2jqrAuMiYV8CyXbQ",
+    hoverImage:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcUZ3OsD8TH6rXtzJs08gvZcCK5hSRA43iVfpF",
   },
   {
     id: 7,
-    name: "Sari Kivelä",
-    role: "Community",
-    image: "/board/sari.jpg",
-    hoverImage: "/board/sari-fun.jpg",
+    name: "Sherry",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcngpiIeco72z6lQ8SUiFuyEjbqhdmYDLa9n10",
+    hoverImage:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zc8RI8xl61yi4q3Ya7lATvfkQKgFBWjemutVwZ",
   },
   {
     id: 8,
-    name: "Mikko Tuominen",
-    role: "Partnerships",
-    image: "/board/mikko.jpg",
-    hoverImage: "/board/mikko-fun.jpg",
+    name: "Milad",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcO978GLB0QGMe6IrUjLXH5xBh8dpg2oESlknJ",
+    hoverImage:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcfTwFdDargiYMDuwI9R752elZNVA3X1hmTdoH",
+  },
+  {
+    id: 9,
+    name: "Eliya",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcgg3JVrhBYOxkSlErAMat34c1f2yWoRi9VTzp",
+    hoverImage:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcmpyD8U14gfnUTGbCsmqMlELR6ahQWxXjtYSv",
+  },
+  {
+    id: 10,
+    name: "Maldini",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcS2CwbaH9K1wuOayD0GUL8T7xkcvFbXfgdQeW",
+    hoverImage:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zc0xGWKHry8kuzKnVTFYpeUWcRBMbPjgIHs62f",
   },
   // Add the remaining members here following the same structure
 ];

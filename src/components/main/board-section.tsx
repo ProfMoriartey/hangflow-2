@@ -25,43 +25,61 @@ const boardMembers = [
     image:
       "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcX4n04lRxDvqWu6A2B4LeUoQRydMpJgskHlfn",
   },
-  { id: 3, name: "Eero Nieminen", role: "Treasurer", image: "/board/eero.jpg" },
-  { id: 4, name: "Sofia Mäkinen", role: "Events", image: "/board/sofia.jpg" },
-  { id: 5, name: "Lauri Laine", role: "Media", image: "/board/lauri.jpg" },
-  { id: 6, name: "Kari Salo", role: "Logistics", image: "/board/kari.jpg" },
-  { id: 7, name: "Sari Kivelä", role: "Community", image: "/board/sari.jpg" },
+  {
+    id: 3,
+    name: "Morad",
+    role: "Treasurer",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcLDrnNcMQHi7hMSqkoP6FOTnRVZWeUdurLjEz",
+  },
+  {
+    id: 4,
+    name: "Nora",
+    role: "Secretary",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zc03A0yDry8kuzKnVTFYpeUWcRBMbPjgIHs62f",
+  },
+  {
+    id: 5,
+    name: "Victoria",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zc8jj9A4e61yi4q3Ya7lATvfkQKgFBWjemutVw",
+  },
+  {
+    id: 6,
+    name: "Dandy",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zck1kxetq0Fd4Izwe7tLmD2jqrAuMiYV8CyXbQ",
+  },
+  {
+    id: 7,
+    name: "Sherry",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcngpiIeco72z6lQ8SUiFuyEjbqhdmYDLa9n10",
+  },
   {
     id: 8,
-    name: "Mikko Tuominen",
-    role: "Partnerships",
-    image: "/board/mikko.jpg",
-  },
-  { id: 9, name: "Laura Heikkinen", role: "Design", image: "/board/laura.jpg" },
-  { id: 10, name: "Juha Peltola", role: "Tech", image: "/board/juha.jpg" },
-  {
-    id: 11,
-    name: "Tiina Rantala",
-    role: "Marketing",
-    image: "/board/tiina.jpg",
-  },
-  { id: 12, name: "Antti Makela", role: "Safety", image: "/board/antti.jpg" },
-  {
-    id: 13,
-    name: "Minna Lehtonen",
-    role: "Volunteers",
-    image: "/board/minna.jpg",
+    name: "Milad",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcO978GLB0QGMe6IrUjLXH5xBh8dpg2oESlknJ",
   },
   {
-    id: 14,
-    name: "Pekka Järvinen",
-    role: "Workshops",
-    image: "/board/pekka.jpg",
+    id: 9,
+    name: "Eliya",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcgg3JVrhBYOxkSlErAMat34c1f2yWoRi9VTzp",
   },
   {
-    id: 15,
-    name: "Heidi Vainio",
-    role: "Secretary",
-    image: "/board/heidi.jpg",
+    id: 10,
+    name: "Maldini",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcS2CwbaH9K1wuOayD0GUL8T7xkcvFbXfgdQeW",
   },
 ];
 
