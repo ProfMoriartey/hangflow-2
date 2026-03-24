@@ -4,8 +4,8 @@ import { type Metadata } from "next";
 import { Geist, Inter } from "next/font/google";
 import { ThemeProvider } from "~/components/theme-provider";
 import { cn } from "~/lib/utils";
-import Navigation from "~/components/navigation";
 import ThemeToggle from "~/components/theme-toggle";
+import Navbar from "~/components/navbar";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -32,7 +32,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Navigation />
+          <Navbar />
           {children}
           <ThemeToggle />
         </ThemeProvider>

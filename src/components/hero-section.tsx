@@ -20,12 +20,6 @@ export default function HeroSection() {
         />
       </div>
 
-      <div className="absolute top-8 left-8 z-10">
-        <span className="text-primary text-2xl font-bold tracking-tight">
-          Hangflow
-        </span>
-      </div>
-
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

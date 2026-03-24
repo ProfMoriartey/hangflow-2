@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 const navLinks = [
   { title: "Home", href: "/" },
@@ -11,20 +12,45 @@ const navLinks = [
   { title: "Contact", href: "/contact" },
 ];
 
-export default function Navigation() {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
     <>
-      <button
-        onClick={toggleMenu}
-        className="bg-text text-accent fixed top-8 right-8 z-50 rounded-full px-8 py-3 font-bold tracking-widest uppercase transition-transform hover:scale-105"
+      <motion.header
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="pointer-events-none fixed top-0 left-0 z-50 flex w-full items-center justify-between px-6 py-6 md:px-12 md:py-8"
       >
-        {isOpen ? "Close" : "Menu"}
-      </button>
+        {/* Top Left: Organization Logo */}
+        <Link
+          href="/"
+          onClick={() => setIsOpen(false)}
+          className="pointer-events-auto z-50 flex items-center transition-opacity hover:opacity-80"
+        >
+          <Image
+            src="https://y644vemv1r.ufs.sh/f/xNlIiPpI32zc8crhK61yi4q3Ya7lATvfkQKgFBWjemutVwZr"
+            alt="Hangflow Logo"
+            width={160}
+            height={160}
+            className="h-16 w-auto object-contain md:h-32"
+            priority
+          />
+        </Link>
 
+        {/* Top Right: Menu Button */}
+        <button
+          onClick={toggleMenu}
+          className="bg-text text-background pointer-events-auto z-50 rounded-full px-6 py-2 font-bold tracking-widest uppercase transition-transform hover:scale-105 md:px-8 md:py-3"
+        >
+          {isOpen ? "Close" : "Menu"}
+        </button>
+      </motion.header>
+
+      {/* Full Screen Menu Overlay */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -32,7 +58,7 @@ export default function Navigation() {
             animate={{ y: 0 }}
             exit={{ y: "-100%" }}
             transition={{ duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
-            className="bg-accent fixed inset-0 z-40 flex flex-col items-center justify-center"
+            className="bg-background pointer-events-auto fixed inset-0 z-40 flex flex-col items-center justify-center"
           >
             <div className="flex flex-col items-center gap-6 md:gap-10">
               {navLinks.map((link, i) => (
@@ -65,9 +91,15 @@ export default function Navigation() {
               transition={{ delay: 0.5 }}
               className="text-text/50 absolute bottom-12 flex gap-6 text-sm font-bold tracking-widest uppercase"
             >
-              <span>IG</span>
-              <span>TW</span>
-              <span>LI</span>
+              <Link href="#" className="hover:text-primary transition-colors">
+                IG
+              </Link>
+              <Link href="#" className="hover:text-primary transition-colors">
+                TW
+              </Link>
+              <Link href="#" className="hover:text-primary transition-colors">
+                LI
+              </Link>
             </motion.div>
           </motion.div>
         )}
