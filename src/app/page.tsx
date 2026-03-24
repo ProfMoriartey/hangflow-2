@@ -1,3 +1,4 @@
+import BoardSection from "~/components/board-section";
 import EventsSection from "~/components/events-section";
 import HeroSection from "~/components/hero-section";
 import IntroductionSection from "~/components/introduction-section";
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <IntroductionSection />
       <EventsSection />
+      <BoardSection />
     </main>
   );
 }

@@ -4,8 +4,9 @@ import { type Metadata } from "next";
 import { Geist, Inter } from "next/font/google";
 import { ThemeProvider } from "~/components/theme-provider";
 import { cn } from "~/lib/utils";
+import Navigation from "~/components/navigation";
 
-const inter = Inter({subsets:['latin'],variable:'--font-sans'});
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: "Create T3 App",
@@ -30,6 +31,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Navigation />
           {children}
         </ThemeProvider>
       </body>
