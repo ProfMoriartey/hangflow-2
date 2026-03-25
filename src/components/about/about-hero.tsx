@@ -79,7 +79,7 @@ export default function AboutHero() {
           </a>
 
           <a
-            href="https://www.instagram.com/hangfloww"
+            href="https://www.linkedin.com/company/hangflow/"
             target="_blank"
             rel="noopener noreferrer"
           >
