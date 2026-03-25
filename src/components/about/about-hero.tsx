@@ -47,13 +47,17 @@ export default function AboutHero() {
         transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
         className="z-10 flex items-center gap-4"
       >
-        <Link href="/events">
+        <a
+          href="https://www.eventbrite.com/o/83120236073?aff=ebdsshandroid"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <MagneticButton>
             <div className="bg-primary text-background hover:bg-secondary cursor-pointer rounded-full px-10 py-4 font-bold transition-colors">
               {t("buttons.events")}
             </div>
           </MagneticButton>
-        </Link>
+        </a>
         <div className="flex gap-3">
           <a
             href="https://www.instagram.com/hangfloww"

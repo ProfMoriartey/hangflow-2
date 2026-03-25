@@ -51,8 +51,8 @@ export default function EventsIntro() {
         transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
         className="mt-16"
       >
-        <Link
-          href="https://your-external-events-site.com"
+        <a
+          href="https://www.eventbrite.com/o/83120236073?aff=ebdsshandroid"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -61,7 +61,7 @@ export default function EventsIntro() {
               {t("button")}
             </div>
           </MagneticButton>
-        </Link>
+        </a>
       </motion.div>
     </section>
   );

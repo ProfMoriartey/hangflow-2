@@ -41,13 +41,17 @@ export default function HeroSection() {
         className="z-10 flex items-center gap-4"
       >
         {/* Internal Link to Events Page */}
-        <Link href="/events">
+        <a
+          href="https://www.eventbrite.com/o/83120236073?aff=ebdsshandroid"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <MagneticButton>
             <div className="bg-primary text-background hover:bg-secondary cursor-pointer rounded-full px-10 py-4 font-bold transition-colors">
               {t("events")}
             </div>
           </MagneticButton>
-        </Link>
+        </a>
 
         <div className="flex gap-3">
           {/* External Social Links */}

@@ -47,13 +47,17 @@ export default function EventsHero() {
         transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
         className="z-10 flex flex-col items-center gap-4 sm:flex-row"
       >
-        <Link href="/about">
+        <a
+          href="https://www.eventbrite.com/o/83120236073?aff=ebdsshandroid"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <MagneticButton>
             <div className="bg-primary text-background hover:bg-secondary block cursor-pointer rounded-full px-10 py-4 font-bold transition-colors">
               {t("buttons.schedule")}
             </div>
           </MagneticButton>
-        </Link>
+        </a>
 
         <div className="flex gap-3">
           <a
