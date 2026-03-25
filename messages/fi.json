@@ -1,6 +1,6 @@
 {
   "Hero": {
-    "title": "Virrataan yhdessä",
+    "title": "Let's Flow Together",
     "events": "Tapahtumat",
     "mascotAlt": "Hangflow-maskotti",
     "socials": {
@@ -10,18 +10,18 @@
     }
   },
   "Introduction": {
-    "title": "Mikä on Hangflow ry?",
+    "title": "Mikä on HangFlow ry?",
     "flow": "Flow",
     "readMore": "Lue lisää",
     "paragraphs": {
-      "first": "Hangflow on yhteisölähtöinen nuorisojärjestö, joka on omistautunut luomaan turvallisia, osallistavia ja luovia tiloja nuorille. Uskomme yhteyden ja itseilmaisun voimaan.",
-      "second": "Toimintamme ulottuu paikallisten tapahtumien järjestämisestä alustojen tarjoamiseen nouseville kyvyille. Keskitymme rakentamaan tukevan verkoston, jossa jokainen voi löytää oman rytminsä ja virtansa.",
-      "third": "Etsitpä sitten uusia taitoja, samanhenkisiä ystäviä tai haluat vain viettää aikaa tervetulleessa ympäristössä, Hangflow tarjoaa puitteet ja vapauden toteutukseen."
+      "first": "HangFlow ry on voittoa tavoittelematon nuorisojärjestö, joka toimii Turussa, Suomessa. Se perustettiin kesällä 2020 nuorten aktivistien intohimosta ja aloitteellisuudesta.",
+      "second": "HangFlow ry on yhteisö, joka tarjoaa turvallisen ja rohkean tilan 13–29-vuotiaille nuorille, jotta he voivat jakaa ideoitaan, ottaa vastuuta ja toteuttaa visioitaan.",
+      "third": "Motomme “nuorilta nuorille” kuvastaa sitoutumistamme siihen, että nuoret ovat toiminnan ja päätöksenteon keskiössä ja heidän äänensä tulee kuuluviin."
     }
   },
   "Events": {
-    "title": "Tutustu tapahtumiimme",
-    "description": "Järjestämme työpajoja, illanviettoja ja luovia istuntoja juuri sinulle. Liity yhteisöön verkostoitumaan, oppimaan uutta ja löytämään rytmisi tukevassa ilmapiirissä.",
+    "title": "Tutustu tapahtumiimme!",
+    "description": "Liity mukaan tuleviin tapahtumiimme, jotka on suunniteltu aktivoimaan, motivoimaan ja voimaannuttamaan nuoria. Pysy kuulolla uusista tapahtumista ja tule osaksi yhteisöämme.",
     "viewEvents": "Katso tapahtumat",
     "image1Placeholder": "Kuva 1 paikkamerkki",
     "image2Placeholder": "Kuva 2 paikkamerkki",
@@ -30,7 +30,7 @@
   },
   "Board": {
     "title": "Hallituksen jäsenet 2026",
-    "description": "Tapaa ydintiimi, joka vie Hangflow'ta eteenpäin.",
+    "description": "Tapaa ydintiimi, joka vie HangFlow ry:tä eteenpäin.",
     "roles": {
       "president": "Puheenjohtaja",
       "vicePresident": "Varapuheenjohtaja",
@@ -81,8 +81,8 @@
     }
   },
   "aboutHero": {
-    "heading": "Me olemme Hangflow",
-    "description": "Nuorten voimaannuttamista luovuuden, turvallisten tilojen ja aitojen kohtaamisten kautta.",
+    "heading": "Me olemme HangFlow",
+    "description": "Turvallisempi ja rohkeampi tila, jossa jokainen voi olla oma itsensä ja pitää hauskaa.",
     "buttons": {
       "events": "Tapahtumat",
       "social": {
@@ -93,20 +93,20 @@
     }
   },
   "aboutSection": {
-    "heading": "Mikä on Hangflow?",
+    "heading": "Mikä on Hangflow ry?",
     "paragraphs": {
-      "0": "Hangflow ry sai alkunsa ruohonjuuritason liikkeenä, jonka tarkoituksena oli antaa Suomen nuorille aito paikka, johon kuulua. Huomasimme yhteisössä aukon: monilla nuorilla ei ollut pääsyä maksuttomiin, matalan kynnyksen tiloihin, joissa he voisivat tutkia luovuuttaan ilman ulkoisia paineita tai odotuksia.",
-      "1": "Olemme olemassa rakentaaksemme näitä puuttuvia tiloja. Tehtävämme on järjestää työpajoja, avoimia hengailuiltoja ja kulttuuritapahtumia. Räätälöimme nämä toiminnot suoraan yhteisömme jäsenten kiinnostuksen kohteiden ja toiveiden mukaan.",
-      "2": "Uskomme yhdessä luomiseen. Nuoret päättävät, mitä Hangflow’ssa tapahtuu. He valitsevat musiikin, ehdottavat työpajojen aiheita ja auttavat tapahtumien suunnittelussa. Tämä jaettu omistajuus kasvattaa itseluottamusta ja vahvaa vastuuntuntoa.",
-      "3": "Inklusiivisuus on perustamme. Noudatamme tiukkoja turvallisemman tilan periaatteita kaikessa toiminnassamme. Syrjinnällä, kiusaamisella tai häirinnällä ei ole sijaa ekosysteemissämme. Suojelemme ympäristöämme, jotta jokainen voi ilmaista itseään vapaasti.",
-      "4": "Vuosien varrella olemme nähneet hiljaisten yksilöiden kasvavan itvarmoiksi johtajiksi. Olemme nähneet uusien taiteilijoiden löytävän äänensä ja todistaneet elinikäisten ystävyyssuhteiden alkua. Täällä syntyneet yhteydet ulottuvat kauas varsinaisten tapahtumiemme ulkopuolelle.",
-      "5": "Toimimme läpinäkyvästi ja avoimien ovien periaatteella. Et tarvitse aiempaa kokemusta tai erityistaitoja osallistuaksesi toimintaamme. Tuo mukanasi uteliaisuutesi ja halu kunnioittaa muita.",
-      "6": "Hangflow on enemmän kuin järjestö; se on jaettu rytmi. Kutsumme sinut liittymään yhteisöömme, jakamaan ideasi ja virtaamaan kanssamme."
+      "0": "HangFlow ry on voittoa tavoittelematon nuorisojärjestö 13–29-vuotiaille nuorille, joka toimii Turussa, Suomessa. Järjestö sai alkunsa nuorten aktivistien intohimosta ja tarmosta kesällä 2020. Missiomme on yksinkertainen mutta vaikuttava: vahvistaa nuorten ääntä ja edistää yhdenvertaisuutta ja tasa-arvoa kaikessa toiminnassamme. Periaatteemme ‘nuorilta nuorille’ mukaisesti luomme turvallisempia, rohkeampia ja osallistavampia tiloja, joissa jokainen nuori voi kukoistaa.",
+      "1": "HangFlow ry:ssä jokainen nuori on arvokas, huomioitu ja voimaannuttettu olemaan oma itsensä. Tapahtumiemme, toimintamme ja projektimme kautta tuemme henkilökohtaista kasvua, rakennamme itseluottamusta ja tarjoamme keskeisiä elämäntaitoja, kuten ongelmanratkaisua, vaikuttamista ja johtajuutta. Rakentamamme yhteisö takaa, että nuoret voivat ilmaista itseään vapaasti ilman syrjinnän pelkoa ja osallistua aktiivisesti yhteisöihinsä taustastaan tai identiteetistään riippumatta.",
+      "2": "Toimintamme ytimessä on turvallisen (nuoren) aikuisen konsepti, luotettava henkilö, joka tukee, ohjaa ja mentoroi nuoria heidän elämänhaasteissaan. Sitoutuneet vapaaehtoiset nuorisotyöntekijämme toimivat tässä roolissa, luoden luottamukseen ja turvaan perustuvan pohjan, joka auttaa nuoria rakentamaan resilienssiä ja itseluottamusta.",
+      "3": "Olemme luoneet yhteistyöhön, sukupolvien väliseen oppimiseen ja yhteiseen kasvuun perustuvan ympäristön, jossa nuoret ja yhteisön jäsenet kehittyvät yhdessä. Yhteisömme tarttuu vaikeisiin aiheisiin suoraan, kuten väkivaltaan, kiusaamiseen, mielenterveyteen, rasismiin sekä sukupuoli- ja seksuaaliseen moninaisuuteen. Murtamalla yhteiskunnan tabuja ja edistämällä avointa keskustelua voimaannutamme nuoria kohtaamaan nämä haasteet vahvuudella ja tiedostavuudella.",
+      "4": "HangFlow ry toimii sekä ruohonjuuritasolla että laajemmilla kentillä, varmistaen, että työmme vaikuttaa monella tasolla. Paikallisesti keskitymme nuorten tarpeisiin ja ideoihin suoraan heidän omissa yhteisöissään. Kansallisesti olemme aktiivisesti mukana nuorisotyötä kehittävässä keskustelussa ja yhteistyössä. Kansainvälisesti osallistumme ylpeästi globaaleihin aloitteisiin, edistämme kulttuurien välistä oppimista ja vahvistamme nuorten ääntä kansainvälisillä areenoilla. Jokainen jäsenemme on meille yksilönä tärkeä ja olennainen osa järjestöämme. Arvostamme syvästi jokaisen panosta, sillä jäsenemme ovat yhteisömme sydän ja missiomme kantava voima.",
+      "5": "HangFlow ry on enemmän kuin järjestö, se on elävä yhteisö ja liike, jossa nuorten äänet tulevat kuulluiksi, juhlituksi ja ymmärretyksi. Kutsumme sinut mukaan rakentamaan nuorten kanssa ja nuoria varten parempaa nykyhetkeä ja tulevaisuutta, joka pohjautuu yhdenvertaisuuteen, osallisuuteen ja itseilmaisuun. Osallistuitpa tapahtumiimme, teit yhteistyötä kanssamme tai vain otit yhteyttä oppiaksesi lisää, jokainen panos vahvistaa yhteistä visiota.",
+      "6": "Yhdessä muovaamme nykyhetkeä ja tulevaisuutta, jossa turvallisemmat tilat, voimaantuneet äänet ja luotettavat suhteet ovat todellisuutta jokaiselle nuorelle."
     }
   },
   "joinSection": {
-    "heading": "Kiinnostaako liittyminen?",
-    "button": "Liity yhteisöön"
+    "heading": "Kiinnostuitko vapaaehtoisena toimimisesta HangFlow ry:ssä?",
+    "button": "Hae mukaan täältä!"
   },
   "contactHero": {
     "heading": "Ota yhteyttä",
@@ -124,11 +124,11 @@
     "heading": "Yhteystiedot",
     "description": "Jos haluat ottaa meihin yhteyttä, lähetäthän sähköpostia. Se on luotettavin tapa tavoittaa tiimimme.",
     "emailLabel": "Lähetä sähköpostia",
-    "emailAddress": "hello@hangflow.fi"
+    "emailAddress": "info@hangflow.org"
   },
   "eventsHero": {
-    "heading": "Tulevat tapahtumat",
-    "description": "Löydä työpajat, luovat istunnot ja yhteisön tapaamiset, jotka auttavat sinua löytämään oman rytmisi.",
+    "heading": "HangFlow tapahtumat",
+    "description": "HangFlow ry järjestää viikoittaisia, maksuttomia tapahtumia, jotka ovat täysin nuorten itse ideoimia ja toteuttamia.",
     "buttons": {
       "schedule": "Katso aikataulu",
       "social": {
@@ -139,28 +139,29 @@
     }
   },
   "eventsIntro": {
-    "heading": "Tilaa luoda ja kohdata",
+    "heading": "Mitä ovat HangFlow tapahtumat?",
     "paragraphs": {
-      "0": "Tapahtumamme on suunniteltu matalan kynnyksen tiloiksi, joihin voit tulla juuri sellaisena kuin olet. Olipa kyseessä ammattilaisen ohjaama työpaja tai rento hengailuilta, tavoite on sama: tarjota turvallinen ympäristö uusien taitojen kokeiluun ja samanhenkisten ihmisten tapaamiseen.",
-      "1": "Asetamme yhteisömme tarpeet etusijalle antamalla nuorten vaikuttaa aikatauluun. Musiikkituotannosta ja digitaalisesta taiteesta rentoihin kahvihetkiin – jokainen kerta on mahdollisuus luoda jotain merkityksellistä yhdessä. Katso alla oleva aikataulu ja löydä seuraava tilaisuus liittyä mukaan."
+      "0": "HangFlow ry:n tapahtumat tarjoavat nuorille mahdollisuuden pitää hauskaa, kokea uusia asioita, luoda yhteyksiä, ilmaista itseään ja ottaa merkityksellisiä rooleja johtajuudessa. Nämä tapahtumat ovat turvallisempia ja rohkeampeja tiloja, joissa nuoret voivat jakaa ideoitaan vapaasti, oppia uusia taitoja ja tutkia omaa potentiaaliaan ilman pelkoa tuomitsemisesta. HangFlow ry:n tapahtumat vaihtelevat luovista työpajoista ja vertaisohjatuista keskusteluista yhteisöprojekteihin ja hauskoihin aktiviteetteihin, jotka tuovat nuoret yhteen käytännössä melkein kaikki on mahdollista!",
+      "1": "HangFlow ry tapahtumien ytimessä on motto 'nuorilta nuorille,' mikä takaa, että nuoret ovat aktiivisesti mukana suunnittelemassa ja muokkaamassa kaikkia tapahtuman osa-alueita. Kyse on siitä, että heille annetaan välineet, tuki ja vapaus toteuttaa omia visioitaan samalla, kun luodaan yhteisöllisyyden ja osallisuuden tunnetta.",
+      "2": "Parasta tässä kaikessa on se, että kaikki HangFlow ry tapahtumat ovat täysin ilmaisia 13–29 vuotiaille nuorille. Joten mitä vielä odotat? Tutustu tuleviin tapahtumiimme ja tule mukaan pitämään hauskaa!"
     },
-    "button": "Tarkista tuleva tapahtuma"
+    "button": "Tutustu tuleviin tapahtumiimme!"
   },
   "projectsGrid": {
     "heading": "Projektimme",
     "projects": {
-      "0": "Summer Jam 2025",
-      "1": "Digitaalisen taiteen työpaja",
-      "2": "Biitinteon perusteet",
-      "3": "Urbaani valokuvakävely",
-      "4": "Nuorten gaalailta",
-      "5": "Graffitisessio",
-      "6": "Skeittimiitti",
-      "7": "Podcast-labra",
-      "8": "Open Mic -ilta",
-      "9": "Tanssibattle",
-      "10": "Koodausta lapsille",
-      "11": "Winter Chill Lounge"
+      "0": "COMING SOON!",
+      "1": "COMING SOON!",
+      "2": "COMING SOON!",
+      "3": "COMING SOON!",
+      "4": "COMING SOON!",
+      "5": "COMING SOON!",
+      "6": "COMING SOON!",
+      "7": "COMING SOON!",
+      "8": "COMING SOON!",
+      "9": "COMING SOON!",
+      "10": "COMING SOON!",
+      "11": "COMING SOON!"
     }
   }
 }
