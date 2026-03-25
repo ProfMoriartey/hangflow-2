@@ -12,7 +12,7 @@
   "Introduction": {
     "title": "Mikä on HangFlow ry?",
     "flow": "Flow",
-    "readMore": "Lue lisää",
+    "readMore": "Lue lisää!",
     "paragraphs": {
       "first": "HangFlow ry on voittoa tavoittelematon nuorisojärjestö, joka toimii Turussa, Suomessa. Se perustettiin kesällä 2020 nuorten aktivistien intohimosta ja aloitteellisuudesta.",
       "second": "HangFlow ry on yhteisö, joka tarjoaa turvallisen ja rohkean tilan 13–29-vuotiaille nuorille, jotta he voivat jakaa ideoitaan, ottaa vastuuta ja toteuttaa visioitaan.",
@@ -22,7 +22,7 @@
   "Events": {
     "title": "Tutustu tapahtumiimme!",
     "description": "Liity mukaan tuleviin tapahtumiimme, jotka on suunniteltu aktivoimaan, motivoimaan ja voimaannuttamaan nuoria. Pysy kuulolla uusista tapahtumista ja tule osaksi yhteisöämme.",
-    "viewEvents": "Katso tapahtumat",
+    "viewEvents": "Katso tapahtumat!",
     "image1Placeholder": "Kuva 1 paikkamerkki",
     "image2Placeholder": "Kuva 2 paikkamerkki",
     "image1Alt": "Tapahtuma 1",
