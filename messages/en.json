@@ -10,7 +10,7 @@
     }
   },
   "Introduction": {
-    "title": "What is Hangflow ry?",
+    "title": "What is HangFlow ry?",
     "flow": "Flow",
     "readMore": "Read more!",
     "paragraphs": {
@@ -22,7 +22,7 @@
   "Events": {
     "title": "Check our events!",
     "description": "Join us in our upcoming events designed to engage, educate, and empower the youth community. Stay tuned for more details and be part of our vibrant community.",
-    "viewEvents": "View Events",
+    "viewEvents": "View Events!",
     "image1Placeholder": "Image 1 Placeholder",
     "image2Placeholder": "Image 2 Placeholder",
     "image1Alt": "Event 1",
@@ -95,11 +95,11 @@
     }
   },
   "aboutSection": {
-    "heading": "What is Hangflow ry?",
+    "heading": "What is HangFlow?",
     "paragraphs": {
       "0": "HangFlow ry is a non-profit youth organization, for 13-29 years old youth, based in Turku, Finland, born from the passion and drive of young activists in the summer of 2020. Our mission is simple yet powerful: to amplify youth voices and promote equity and equality in every aspect of our work. Guided by the principle “by youth, for youth,” we are committed to maintaining safer, braver and more inclusive spaces where every young person can thrive.",
       "1": "At HangFlow ry, every young person is valued, appreciated, and empowered to be their authentic selves. Through our events, activities and projects, we cultivate personal growth, build confidence, and provide essential life skills such as problem-solving, advocacy, and leadership. Our established community ensures that young people can express themselves freely, without fear of discrimination, and actively contribute to their communities, regardless of their background or identity.",
-      "2": "Central to our approach is the concept of the safe (young) adult—a trusted person who provides support, guidance, and mentorship to young people navigating life’s challenges. Our team of dedicated volunteer youth workers embodies this role, creating a foundation of trust and security that helps youth build resilience and self-confidence.",
+      "2": "Central to our approach is the concept of the safe (young) adult a trusted person who provides support, guidance, and mentorship to young people navigating life’s challenges. Our team of dedicated volunteer youth workers embodies this role, creating a foundation of trust and security that helps youth build resilience and self-confidence.",
       "3": "We have created an environment of collaboration, intergenerational learning, and shared growth, where youth and community members evolve together. Our community addresses difficult topics head-on, including violence, bullying, mental health, racism, gender, and sexual diversity. By breaking societal taboos and fostering open conversations, we empower young people to face these issues with strength and awareness.",
       "4": "HangFlow ry operates at both the grassroots and broader levels, ensuring that our work remains impactful on multiple fronts. Locally, we focus on grassroots initiatives, engaging directly with young people in their communities to address their needs and ideas. Nationally, we actively participate in conversations and collaborations that influence youth work across Finland. Internationally, we take pride in contributing to global initiatives, fostering cross-cultural learning, and amplifying the voices of youth on international platforms. Every member of our organization plays a vital role in shaping who we are. We deeply value each individual’s contribution, as they are the heart of our community and the driving force behind our mission.",
       "5": "HangFlow ry is more than just an organization, it’s a thriving community and a movement where young voices are heard, celebrated, and understood. We invite you to join us in building a brighter present and future for youth with the youth, rooted in equity, inclusion, and self-expression. Whether you participate in our events, collaborate with us, or simply reach out to learn more, your involvement strengthens our shared vision.",
@@ -133,7 +133,7 @@
     "heading": "HangFlow Events",
     "description": "HangFlow ry organizes weekly, free events that are entirely planned and run by young people themselves.",
     "buttons": {
-      "schedule": "View Schedule",
+      "schedule": "View Events",
       "social": {
         "ig": "IG",
         "tw": "TW",
@@ -142,13 +142,13 @@
     }
   },
   "eventsIntro": {
-    "heading": "Space to Create and Connect",
+    "heading": "What are HangFlow events?",
     "paragraphs": {
       "0": "HangFlow ry events are all about creating opportunities for young people to have fun, experience new things, connect, express themselves, and take the lead in meaningful ways. These events are designed as safer and braver spaces where youth can share ideas freely, learn new skills, and explore their potential without fear of judgment. HangFlow ry events range from creative workshops and peer-led discussions to community projects and fun activities that bring young people together in short everything almost is on the table.",
       "1": "At their core, HangFlow events are driven by the motto ‘by youth, for youth,’ ensuring that young people are actively involved in planning and shaping every aspect. It’s about giving them the tools, support, and freedom to make their visions a reality while fostering a sense of community and inclusion.",
       "2": "And what's the best about all of this is that all HangFlow events are totally free for all the youth in the age of 13-29 years old. So what are you waiting for? Go check our upcoming events and join the fun!"
     },
-    "button": "Check our upcoming event"
+    "button": "Check our upcoming events!"
   },
   "projectsGrid": {
     "heading": "Our Projects",
