@@ -140,7 +140,7 @@ export default function BoardSection() {
                     <h3 className="text-text mb-1 text-lg leading-tight font-black drop-shadow-md md:text-xl">
                       {member.name}
                     </h3>
-                    <p className="text-primary text-[10px] font-bold tracking-wide uppercase drop-shadow-md md:text-xs">
+                    <p className="text-text text-[8px] font-bold tracking-wide uppercase drop-shadow-md md:text-xs">
                       {t(`roles.${member.role}`)}
                     </p>
                   </div>

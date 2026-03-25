@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import MagneticButton from "~/components/magnetic-button";
 import { Link } from "~/i18n/routing";
+import { BsInstagram } from "react-icons/bs";
+import { CiFacebook, CiLinkedin } from "react-icons/ci";
 
 export default function AboutHero() {
   const t = useTranslations("aboutHero");
@@ -60,29 +62,30 @@ export default function AboutHero() {
           >
             <MagneticButton>
               <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
-                {t("buttons.social.ig")}
+                <BsInstagram size={28} strokeWidth={0.5} />
               </div>
             </MagneticButton>
           </a>
           <a
-            href="https://instagram.com/yourhandle"
+            href="https://www.facebook.com/share/1CxzuFXuux/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <MagneticButton>
               <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
-                {t("buttons.social.tw")}
+                <CiFacebook size={35} strokeWidth={1} />
               </div>
             </MagneticButton>
           </a>
+
           <a
-            href="https://instagram.com/yourhandle"
+            href="https://www.instagram.com/hangfloww"
             target="_blank"
             rel="noopener noreferrer"
           >
             <MagneticButton>
               <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
-                {t("buttons.social.li")}
+                <CiLinkedin size={35} strokeWidth={1} />
               </div>
             </MagneticButton>
           </a>

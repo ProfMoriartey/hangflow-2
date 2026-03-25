@@ -63,8 +63,8 @@ export default function Footer() {
           </p>
           <div className="text-primary flex items-center gap-3 text-sm font-bold">
             <Mail className="h-5 w-5" />
-            <a href="mailto:hello@hangflow.fi" className="hover:underline">
-              hello@hangflow.fi
+            <a href="mailto:info@hangflow.org" className="hover:underline">
+              info@hangflow.org
             </a>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default function Footer() {
           </h4>
           <div className="border-text/10 h-32 w-full overflow-hidden rounded-xl border contrast-125 grayscale">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.444!2d24.938!3d60.169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDEwJzA4LjQiTiAyNMKwNTYnMTYuOCJF!5e0!3m2!1sen!2sfi!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1967.6091904025416!2d22.266944!3d60.45166700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468c76fbd63543bb%3A0xb440e48b15cbfb3d!2sTurku%20Market%20Square!5e0!3m2!1sen!2str!4v1774447144092!5m2!1sen!2str"
               width="100%"
               height="100%"
               style={{ border: 0 }}

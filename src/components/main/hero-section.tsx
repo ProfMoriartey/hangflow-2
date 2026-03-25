@@ -6,6 +6,8 @@ import { useTheme } from "next-themes";
 import MagneticButton from "~/components/magnetic-button";
 import { useTranslations } from "next-intl";
 import { Link } from "~/i18n/routing";
+import { BsInstagram } from "react-icons/bs";
+import { CiFacebook, CiLinkedin } from "react-icons/ci";
 
 export default function HeroSection() {
   const { setTheme } = useTheme();
@@ -56,31 +58,31 @@ export default function HeroSection() {
           >
             <MagneticButton>
               <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
-                {t("socials.instagram")}
+                <BsInstagram size={28} strokeWidth={0.5} />
               </div>
             </MagneticButton>
           </a>
 
           <a
-            href="https://www.facebook.com/HangFlow"
+            href="https://www.facebook.com/share/1CxzuFXuux/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <MagneticButton>
               <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
-                {t("socials.twitter")}
+                <CiFacebook size={35} strokeWidth={1} />
               </div>
             </MagneticButton>
           </a>
 
           <a
-            href="https://bento.me/hangflow"
+            href="https://www.instagram.com/hangfloww"
             target="_blank"
             rel="noopener noreferrer"
           >
             <MagneticButton>
               <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
-                {t("socials.linkedin")}
+                <CiLinkedin size={35} strokeWidth={1} />
               </div>
             </MagneticButton>
           </a>

@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import MagneticButton from "~/components/magnetic-button";
 import { Link } from "~/i18n/routing";
+import { BsInstagram } from "react-icons/bs";
+import { CiFacebook, CiLinkedin } from "react-icons/ci";
 
 export default function EventsHero() {
   const t = useTranslations("eventsHero");
@@ -60,30 +62,31 @@ export default function EventsHero() {
             rel="noopener noreferrer"
           >
             <MagneticButton>
-              <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white">
-                {t("buttons.social.ig")}
+              <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
+                <BsInstagram size={28} strokeWidth={0.5} />
               </div>
             </MagneticButton>
           </a>
           <a
-            href="https://linkedin.com/company/yourhandle"
+            href="https://www.facebook.com/share/1CxzuFXuux/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <MagneticButton>
-              <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white">
-                {t("buttons.social.tw")}
+              <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
+                <CiFacebook size={35} strokeWidth={1} />
               </div>
             </MagneticButton>
           </a>
+
           <a
-            href="https://linkedin.com/company/yourhandle"
+            href="https://www.instagram.com/hangfloww"
             target="_blank"
             rel="noopener noreferrer"
           >
             <MagneticButton>
-              <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white">
-                {t("buttons.social.li")}
+              <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
+                <CiLinkedin size={35} strokeWidth={1} />
               </div>
             </MagneticButton>
           </a>

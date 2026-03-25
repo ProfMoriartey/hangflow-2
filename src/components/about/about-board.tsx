@@ -153,7 +153,7 @@ export default function AboutBoard() {
               <h3 className="text-text mb-1 text-xl font-black tracking-tight">
                 {member.name}
               </h3>
-              <p className="text-primary text-xs font-bold tracking-widest uppercase">
+              <p className="text-text text-[8px] font-bold tracking-widest uppercase md:text-xs">
                 {t(`roles.${member.role.replace(/\s+/g, "")}`)}
               </p>
             </div>

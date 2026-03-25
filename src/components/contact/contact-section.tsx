@@ -54,7 +54,7 @@ export default function ContactSection() {
           className="border-text/5 bg-text/5 h-100 w-full overflow-hidden rounded-3xl border-4 shadow-2xl lg:h-125"
         >
           <iframe
-            src="http://googleusercontent.com/maps.google.com/3"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1967.6091904025416!2d22.266944!3d60.45166700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468c76fbd63543bb%3A0xb440e48b15cbfb3d!2sTurku%20Market%20Square!5e0!3m2!1sen!2str!4v1774447144092!5m2!1sen!2str"
             width="100%"
             height="100%"
             style={{ border: 0, filter: "grayscale(20%) contrast(1.2)" }}

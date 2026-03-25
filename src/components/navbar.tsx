@@ -7,6 +7,8 @@ import Image from "next/image";
 import LanguageSwitcher from "./language-switcher";
 import { useTranslations } from "next-intl";
 import { Link } from "~/i18n/routing";
+import { BsInstagram } from "react-icons/bs";
+import { CiFacebook, CiLinkedin } from "react-icons/ci";
 
 const navLinks = [
   { key: "home", href: "/" },
@@ -110,15 +112,34 @@ export default function Navbar() {
               transition={{ delay: 0.5 }}
               className="text-text/50 absolute bottom-12 flex gap-6 text-sm font-bold tracking-widest uppercase"
             >
-              <Link href="#" className="hover:text-primary transition-colors">
-                {t("socials.instagram")}
-              </Link>
-              <Link href="#" className="hover:text-primary transition-colors">
-                {t("socials.twitter")}
-              </Link>
-              <Link href="#" className="hover:text-primary transition-colors">
-                {t("socials.linkedin")}
-              </Link>
+              <a
+                href="https://www.instagram.com/hangfloww"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
+                  <BsInstagram size={28} strokeWidth={0.5} />
+                </div>
+              </a>
+              <a
+                href="https://www.facebook.com/share/1CxzuFXuux/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
+                  <CiFacebook size={35} strokeWidth={1} />
+                </div>
+              </a>
+
+              <a
+                href="https://www.instagram.com/hangfloww"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
+                  <CiLinkedin size={35} strokeWidth={1} />
+                </div>
+              </a>
             </motion.div>
           </motion.div>
         )}

@@ -4,6 +4,8 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import MagneticButton from "~/components/magnetic-button";
+import { BsInstagram } from "react-icons/bs";
+import { CiFacebook, CiLinkedin } from "react-icons/ci";
 
 export default function ContactHero() {
   const t = useTranslations("contactHero");
@@ -46,7 +48,7 @@ export default function ContactHero() {
       >
         <MagneticButton>
           <a
-            href="mailto:hello@hangflow.fi"
+            href="mailto:info@hangflow.org"
             className="bg-primary text-background hover:bg-secondary block cursor-pointer rounded-full px-10 py-4 font-bold transition-colors"
           >
             {t("buttons.email")}
@@ -56,28 +58,40 @@ export default function ContactHero() {
         <div className="flex gap-3">
           <MagneticButton>
             <a
-              href="https://www.instagram.com/hangfloww#"
-              className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white"
-            >
-              {t("buttons.social.ig")}
-            </a>
-          </MagneticButton>
-          <MagneticButton>
-            <a
               href="https://www.instagram.com/hangfloww"
-              className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              {t("buttons.social.tw")}
+              <MagneticButton>
+                <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
+                  <BsInstagram size={28} strokeWidth={0.5} />
+                </div>
+              </MagneticButton>
             </a>
           </MagneticButton>
-          <MagneticButton>
-            <a
-              href="https://www.instagram.com/hangfloww"
-              className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full text-center leading-14 transition-colors hover:text-white"
-            >
-              {t("buttons.social.li")}
-            </a>
-          </MagneticButton>
+          <a
+            href="https://www.facebook.com/share/1CxzuFXuux/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MagneticButton>
+              <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
+                <CiFacebook size={35} strokeWidth={1} />
+              </div>
+            </MagneticButton>
+          </a>
+
+          <a
+            href="https://www.instagram.com/hangfloww"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MagneticButton>
+              <div className="bg-text/10 hover:bg-accent flex h-14 w-14 cursor-pointer items-center justify-center rounded-full transition-colors hover:text-white">
+                <CiLinkedin size={35} strokeWidth={1} />
+              </div>
+            </MagneticButton>
+          </a>
         </div>
       </motion.div>
     </section>
