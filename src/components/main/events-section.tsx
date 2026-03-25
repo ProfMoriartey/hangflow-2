@@ -63,7 +63,7 @@ export default function EventsSection() {
         <motion.div
           whileHover={{ rotate: 5, scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300, damping: 20 }}
-          className="border-background bg-primary/20 absolute bottom-0 left-4 z-20 flex h-56 w-3/3 items-center justify-center overflow-hidden rounded-2xl border-2 shadow-2xl md:left-8 md:h-72"
+          className="border-background bg-primary/20 absolute bottom-0 left-4 z-20 flex h-56 w-3/3 items-center justify-center overflow-hidden rounded-2xl border-2 shadow-2xl md:left-0 md:h-72"
         >
           <span className="text-text/50 text-sm font-bold">
             {t("image2Placeholder")}
