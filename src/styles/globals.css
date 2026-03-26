@@ -121,6 +121,11 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+html, body {
+  /* The 'auto' at the end is a fallback in case the image fails to load */
+  cursor: url('/cursor.png'), auto;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
