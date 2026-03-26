@@ -2,9 +2,10 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
+
 import MagneticButton from "~/components/magnetic-button";
 import { useTranslations } from "next-intl";
+import { Link } from "~/i18n/routing";
 
 export default function EventsSection() {
   const t = useTranslations("Events");

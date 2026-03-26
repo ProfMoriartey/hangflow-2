@@ -5,7 +5,6 @@ import Image from "next/image";
 import { useTheme } from "next-themes";
 import MagneticButton from "~/components/magnetic-button";
 import { useTranslations } from "next-intl";
-import { Link } from "~/i18n/routing";
 import { BsInstagram } from "react-icons/bs";
 import { CiFacebook, CiLinkedin } from "react-icons/ci";
 

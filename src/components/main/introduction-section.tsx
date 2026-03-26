@@ -1,9 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 import MagneticButton from "~/components/magnetic-button";
 import { useTranslations } from "next-intl";
+import { Link } from "~/i18n/routing";
 
 export default function IntroductionSection() {
   const t = useTranslations("Introduction");
@@ -30,7 +30,7 @@ export default function IntroductionSection() {
         <motion.div
           initial="idle"
           whileHover="revealed"
-          className="relative mt-6 flex h-16 w-48 cursor-crosshair items-center justify-center"
+          className="relative mt-6 hidden h-16 w-48 cursor-crosshair items-center justify-center md:flex"
         >
           <motion.div
             variants={{
@@ -73,6 +73,13 @@ export default function IntroductionSection() {
             </Link>
           </motion.div>
         </motion.div>
+        <Link href="/about">
+          <MagneticButton>
+            <div className="bg-accent rounded-full px-8 py-3 text-sm font-bold text-white transition-colors md:hidden">
+              {t("readMore")}
+            </div>
+          </MagneticButton>
+        </Link>
       </motion.div>
     </section>
   );

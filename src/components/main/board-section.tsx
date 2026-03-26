@@ -134,7 +134,7 @@ export default function BoardSection() {
                     />
                   </div>
 
-                  <div className="from-background via-background/40 absolute inset-0 z-10 bg-linear-to-t to-transparent opacity-90" />
+                  <div className="from-background via-background/10 absolute inset-0 z-10 bg-linear-to-t to-transparent opacity-90" />
 
                   <div className="pointer-events-none absolute bottom-0 left-0 z-20 w-full p-4">
                     <h3 className="text-text mb-1 text-lg leading-tight font-black drop-shadow-md md:text-xl">
