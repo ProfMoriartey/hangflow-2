@@ -19,11 +19,11 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: {
-    default: "Hangflow | Fun group full of lovely people",
+    default: "HangFlow ry | Join the Flow! 🫵🏼",
     template: "%s | Hangflow",
   },
   description:
-    "A safe space for Finnish youth to connect, create, and flow through workshops and community events.",
+    "Created by youth, for youth. A safer, empowering and fun community to connect, grow, and unlock your potential ✨",
   keywords: [
     "Youth",
     "Finland",
@@ -35,15 +35,15 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Hangflow ry" }],
   creator: "Hangflow ry",
-  metadataBase: new URL("https://hangflow.org"), // Replace with your actual domain
+  metadataBase: new URL("https://www.hangflow.org"), // Replace with your actual domain
   openGraph: {
     type: "website",
     locale: "en_FI",
-    url: "https://hangflow.org",
+    url: "https://www.hangflow.org",
     siteName: "Hangflow",
-    title: "Hangflow | Fun group full of lovely people",
+    title: "HangFlow ry | Join the Flow! 🫵🏼",
     description:
-      "Join the flow. We build safe spaces for young creators in Finland.",
+      "Created by youth, for youth. A safer, empowering and fun community to connect, grow, and unlock your potential ✨",
     images: [
       {
         url: "/og-image.svg", // Place a 1200x630px image in your public folder
@@ -55,14 +55,15 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hangflow | Empowering Youth Creativity",
-    description: "Safe spaces and creative workshops for youth in Finland.",
+    title: "HangFlow ry | Join the Flow! 🫵🏼",
+    description:
+      "Created by youth, for youth. A safer, empowering and fun community to connect, grow, and unlock your potential ✨",
     images: ["/og-image.svg"],
   },
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
   },
 };
 
