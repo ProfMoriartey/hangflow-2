@@ -19,11 +19,11 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: {
-    default: "HangFlow ry | Join the Flow!",
+    default: "HangFlow ry | Join the Flow! 🫵🏼",
     template: "%s | Hangflow",
   },
   description:
-    "Created by youth, for youth. A safer, empowering and fun community to connect, grow, and unlock your potential",
+    "Created by youth, for youth. A safer, empowering and fun community to connect, grow, and unlock your potential ✨",
   keywords: [
     "Youth",
     "Finland",
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
     locale: "en_FI",
     url: "https://www.hangflow.org",
     siteName: "Hangflow",
-    title: "HangFlow ry | Join the Flow!",
+    title: "HangFlow ry | Join the Flow! 🫵🏼",
     description:
-      "Created by youth, for youth. A safer, empowering and fun community to connect, grow, and unlock your potential",
+      "Created by youth, for youth. A safer, empowering and fun community to connect, grow, and unlock your potential ✨",
     images: [
       {
         url: "/og-image.svg", // Place a 1200x630px image in your public folder
@@ -55,9 +55,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "HangFlow ry | Join the Flow!",
+    title: "HangFlow ry | Join the Flow! 🫵🏼",
     description:
-      "Created by youth, for youth. A safer, empowering and fun community to connect, grow, and unlock your potential",
+      "Created by youth, for youth. A safer, empowering and fun community to connect, grow, and unlock your potential ✨",
     images: ["/og-image.svg"],
   },
   icons: {
