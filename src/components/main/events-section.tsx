@@ -28,7 +28,7 @@ export default function EventsSection() {
         </p>
         <Link href="/events" className="mt-4">
           <MagneticButton>
-            <div className="bg-primary text-background hover:bg-secondary rounded-full px-8 py-4 font-bold transition-colors">
+            <div className="bg-accent text-background hover:bg-secondary rounded-full px-8 py-4 font-bold transition-colors">
               {t("viewEvents")}
             </div>
           </MagneticButton>

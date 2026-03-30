@@ -40,7 +40,7 @@ export default function IntroductionSection() {
             transition={{ duration: 0.3 }}
             className="absolute flex items-center gap-2"
           >
-            <div className="bg-primary h-2 w-2 animate-pulse rounded-full" />
+            <div className="bg-accent h-2 w-2 animate-pulse rounded-full" />
             <span className="text-primary text-xs font-bold tracking-widest uppercase opacity-70">
               {t("flow")}
             </span>

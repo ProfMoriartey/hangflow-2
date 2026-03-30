@@ -49,7 +49,7 @@ export default function ContactHero() {
         <MagneticButton>
           <a
             href="mailto:info@hangflow.org"
-            className="bg-primary text-background hover:bg-secondary block cursor-pointer rounded-full px-10 py-4 font-bold transition-colors"
+            className="bg-accent text-background hover:bg-secondary block cursor-pointer rounded-full px-10 py-4 font-bold transition-colors"
           >
             {t("buttons.email")}
           </a>

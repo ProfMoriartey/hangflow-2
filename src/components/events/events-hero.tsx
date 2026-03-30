@@ -53,7 +53,7 @@ export default function EventsHero() {
           rel="noopener noreferrer"
         >
           <MagneticButton>
-            <div className="bg-primary text-background hover:bg-secondary block cursor-pointer rounded-full px-10 py-4 font-bold transition-colors">
+            <div className="bg-accent text-background hover:bg-secondary block cursor-pointer rounded-full px-10 py-4 font-bold transition-colors">
               {t("buttons.schedule")}
             </div>
           </MagneticButton>
