@@ -41,7 +41,7 @@ export default function IntroductionSection() {
             className="absolute flex items-center gap-2"
           >
             <div className="bg-accent h-2 w-2 animate-pulse rounded-full" />
-            <span className="text-primary text-xs font-bold tracking-widest uppercase opacity-70">
+            <span className="text-accent text-xs font-bold tracking-widest uppercase opacity-70">
               {t("flow")}
             </span>
           </motion.div>
@@ -66,7 +66,7 @@ export default function IntroductionSection() {
           >
             <Link href="/about">
               <MagneticButton>
-                <div className="bg-accent text-background hover:bg-accent rounded-full px-8 py-3 text-sm font-bold transition-colors hover:text-white">
+                <div className="bg-accent text-background hover:bg-primary rounded-full px-8 py-3 text-sm font-bold transition-colors hover:text-white">
                   {t("readMore")}
                 </div>
               </MagneticButton>
@@ -75,7 +75,7 @@ export default function IntroductionSection() {
         </motion.div>
         <Link href="/about">
           <MagneticButton>
-            <div className="bg-accent rounded-full px-8 py-3 text-sm font-bold text-white transition-colors md:hidden">
+            <div className="bg-primary rounded-full px-8 py-3 text-sm font-bold text-white transition-colors md:hidden">
               {t("readMore")}
             </div>
           </MagneticButton>
