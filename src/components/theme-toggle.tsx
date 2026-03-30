@@ -6,16 +6,19 @@ import { Sun, Moon } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
+  // Use resolvedTheme instead of theme
+  const { resolvedTheme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
+  // Prevents hydration mismatch
   if (!mounted) return null;
 
-  const isDark = theme === "dark";
+  // This will now correctly detect if the system preference is dark on first load
+  const isDark = resolvedTheme === "dark";
 
   return (
     <button
@@ -32,6 +35,7 @@ export default function ThemeToggle() {
       {/* Sliding Active Indicator */}
       <motion.div
         className="bg-accent text-background relative z-10 flex h-8 w-8 items-center justify-center rounded-full shadow-lg"
+        // If isDark is true, x is 0 (Moon position). If false, x is 36 (Sun position).
         animate={{ x: isDark ? 0 : 36 }}
         transition={{ type: "spring", stiffness: 500, damping: 30 }}
       >

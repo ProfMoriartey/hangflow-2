@@ -126,10 +126,10 @@ html, body {
   cursor: url('/cursor.png'), auto;
 }
 
-/* Ensure buttons and links still show the pointer finger or your custom variant */
+/* Ensure buttons and links still show the pointer finger or your custom variant
 a, button {
   cursor: url('/cursor.png'), pointer;
-}
+} */
 
 @layer base {
   * {

@@ -22,7 +22,7 @@ export default function LanguageSwitcher() {
         aria-label="Switch Language"
       >
         <span className="text-text group-hover:text-primary text-xs font-black tracking-widest uppercase transition-colors md:text-sm">
-          {locale === "en" ? "EN" : "FI"}
+          {locale === "en" ? "FI" : "EN"}
         </span>
       </button>
     </MagneticButton>
