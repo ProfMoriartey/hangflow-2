@@ -66,7 +66,7 @@ export default function IntroductionSection() {
           >
             <Link href="/about">
               <MagneticButton>
-                <div className="bg-text text-background hover:bg-accent rounded-full px-8 py-3 text-sm font-bold transition-colors hover:text-white">
+                <div className="bg-accent text-background hover:bg-accent rounded-full px-8 py-3 text-sm font-bold transition-colors hover:text-white">
                   {t("readMore")}
                 </div>
               </MagneticButton>
