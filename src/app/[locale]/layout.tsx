@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   description:
     "Created by youth, for youth. A safer, empowering and fun community to connect, grow, and unlock your potential ✨",
   keywords: [
-    "Youth",
+    "Hangflow","Youth","Safer","Braver","Safer braver space",
     "Finland",
     "Creativity",
     "Workshops",
