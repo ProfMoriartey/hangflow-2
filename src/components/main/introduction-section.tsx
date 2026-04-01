@@ -32,45 +32,16 @@ export default function IntroductionSection() {
           whileHover="revealed"
           className="relative mt-6 hidden h-16 w-48 cursor-crosshair items-center justify-center md:flex"
         >
-          <motion.div
-            variants={{
-              idle: { opacity: 0.6, scale: 1 },
-              revealed: { opacity: 0, scale: 0.5 },
-            }}
-            transition={{ duration: 0.3 }}
-            className="absolute flex items-center gap-2"
-          >
-            <div className="bg-accent h-2 w-2 animate-pulse rounded-full" />
-            <span className="text-accent text-xs font-bold tracking-widest uppercase opacity-70">
-              {t("flow")}
-            </span>
-          </motion.div>
+         
+            <Link href="/about" className="mt-4">
+                      <MagneticButton>
+                        <div className="bg-primary text-background hover:bg-accent rounded-full px-8 py-4 font-bold transition-colors">
+                   {t("readMore")}
+                        </div>
+                      </MagneticButton>
+                    </Link>
 
-          <motion.div
-            variants={{
-              idle: {
-                opacity: 0,
-                y: 10,
-                filter: "blur(4px)",
-                pointerEvents: "none",
-              },
-              revealed: {
-                opacity: 1,
-                y: 0,
-                filter: "blur(0px)",
-                pointerEvents: "auto",
-              },
-            }}
-            transition={{ duration: 0.4, ease: "easeOut" }}
-            className="absolute"
-          >
-            <Link href="/about">
-              <MagneticButton>
-                <div className="bg-accent text-background hover:bg-primary rounded-full px-8 py-3 text-sm font-bold transition-colors hover:text-white">
-                  {t("readMore")}
-                </div>
-              </MagneticButton>
-            </Link>
+            
           </motion.div>
         </motion.div>
         <Link href="/about">
@@ -80,7 +51,7 @@ export default function IntroductionSection() {
             </div>
           </MagneticButton>
         </Link>
-      </motion.div>
+     
     </section>
   );
 }

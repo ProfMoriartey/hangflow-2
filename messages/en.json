@@ -1,7 +1,7 @@
 {
   "Hero": {
     "title": "Let's flow together",
-    "events": "Events",
+    "events": "Events!",
     "mascotAlt": "Hangflow Mascot",
     "socials": {
       "instagram": "IG",
@@ -115,7 +115,7 @@
     "heading": "Get In Touch",
     "description": "Reach out with questions, collaboration ideas, or just to say hello. We are always listening.",
     "buttons": {
-      "email": "Send an Email",
+      "email": "Send an Email!",
       "social": {
         "ig": "IG",
         "tw": "TW",
@@ -133,7 +133,7 @@
     "heading": "HangFlow Events",
     "description": "HangFlow ry organizes weekly, free events that are entirely planned and run by young people themselves.",
     "buttons": {
-      "schedule": "View Events",
+      "schedule": "View Events!",
       "social": {
         "ig": "IG",
         "tw": "TW",

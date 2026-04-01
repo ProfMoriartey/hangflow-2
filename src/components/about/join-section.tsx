@@ -53,7 +53,7 @@ export default function JoinSection() {
           rel="noopener noreferrer"
         >
           <MagneticButton>
-            <div className="bg-accent text-background rounded-full px-10 py-5 text-lg font-bold shadow-xl transition-transform hover:scale-105">
+            <div className="bg-primary text-background rounded-full px-10 py-5 text-lg font-bold shadow-xl transition-transform hover:scale-105">
               {t("button")}
             </div>
           </MagneticButton>

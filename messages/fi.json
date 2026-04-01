@@ -1,7 +1,7 @@
 {
   "Hero": {
     "title": "Let's Flow Together",
-    "events": "Tapahtumat",
+    "events": "Tapahtumat!",
     "mascotAlt": "Hangflow-maskotti",
     "socials": {
       "instagram": "IG",
@@ -112,7 +112,7 @@
     "heading": "Ota yhteyttä",
     "description": "Kysy lisää, ehdota yhteistyötä tai tule vain moikkaamaan. Me kuuntelemme aina.",
     "buttons": {
-      "email": "Lähetä sähköpostia",
+      "email": "Lähetä sähköpostia!",
       "social": {
         "ig": "IG",
         "tw": "TW",
