@@ -48,7 +48,7 @@ export default function JoinSection() {
         transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
       >
         <Link
-          href="https://www.eventbrite.fi/o/hangflow-ry-83120236073"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSewOAbEG-X8WmC4tfWiGGBV2K6u75S7zVamfVZw0dTHihd2VA/viewform?usp=header"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -97,7 +97,7 @@ export default function Navbar() {
                     <Link
                       href={link.href}
                       onClick={toggleMenu}
-                      className="text-text hover:text-primary inline-block text-6xl font-black tracking-tighter uppercase transition-colors md:text-8xl"
+                      className="text-text hover:text-primary inline-block text-6xl px-1 font-black tracking-tighter uppercase transition-colors md:text-8xl"
                     >
                       {t(`links.${link.key}`)}
                     </Link>
