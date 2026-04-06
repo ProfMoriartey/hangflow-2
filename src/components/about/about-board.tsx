@@ -95,6 +95,22 @@ const boardMembers = [
       "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcS2CwbaH9K1wuOayD0GUL8T7xkcvFbXfgdQeW",
     hoverImage:
       "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zc0xGWKHry8kuzKnVTFYpeUWcRBMbPjgIHs62f",
+  }, {
+    id: 11,
+    name: "Jaith",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcA7g6AHjR2IHVG4dfjMo3klgPY0LEFDsa9zW7",
+    hoverImage:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcfniC2fargiYMDuwI9R752elZNVA3X1hmTdoH",
+  }, {
+    id: 12,
+    name: "Ali",
+    role: "Event Coordinator",
+    image:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcjRB3bwimxSotX6CLG58EdQpFN7V3P2OIRhBs",
+    hoverImage:
+      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcYsAfG1CgaR7LMoyKDkmwXfz1dSn9W65psAT0",
   },
   // Add the remaining members here following the same structure
 ];
