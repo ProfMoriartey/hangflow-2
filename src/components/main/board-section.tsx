@@ -74,21 +74,14 @@ const boardMembers = [
     role: "eventCoordinator",
     image:
       "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcgg3JVrhBYOxkSlErAMat34c1f2yWoRi9VTzp",
-  },
-  {
-    id: 10,
-    name: "Maldini",
-    role: "eventCoordinator",
-    image:
-      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcS2CwbaH9K1wuOayD0GUL8T7xkcvFbXfgdQeW",
   }, {
-    id: 11,
+    id: 10,
     name: "Jaith",
     role: "eventCoordinator",
     image:
       "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcA7g6AHjR2IHVG4dfjMo3klgPY0LEFDsa9zW7",
   }, {
-    id: 12,
+    id: 11,
     name: "Ali",
     role: "eventCoordinator",
     image:
