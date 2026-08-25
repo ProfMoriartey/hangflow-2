@@ -61,27 +61,14 @@ const boardMembers = [
     image:
       "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcngpiIeco72z6lQ8SUiFuyEjbqhdmYDLa9n10",
   },
-  {
+ {
     id: 8,
-    name: "Milad",
-    role: "eventCoordinator",
-    image:
-      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcO978GLB0QGMe6IrUjLXH5xBh8dpg2oESlknJ",
-  },
-  {
-    id: 9,
-    name: "Eliya",
-    role: "eventCoordinator",
-    image:
-      "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcgg3JVrhBYOxkSlErAMat34c1f2yWoRi9VTzp",
-  }, {
-    id: 10,
     name: "Jaith",
     role: "eventCoordinator",
     image:
       "https://y644vemv1r.ufs.sh/f/xNlIiPpI32zcA7g6AHjR2IHVG4dfjMo3klgPY0LEFDsa9zW7",
   }, {
-    id: 11,
+    id: 9,
     name: "Ali",
     role: "eventCoordinator",
     image:
